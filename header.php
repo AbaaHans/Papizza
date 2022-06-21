@@ -32,11 +32,17 @@
             <nav class="navbar navbar-expand-lg  ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="assets/images/papizza/logo_papizza.png" alt="" srcset="">
+                        <img src="assets/images/papizza/logo_papizza.png" class="logo" alt="papizza" srcset="">
                     </a>
+                    <div class="d-flex d-none connect-left connect text-uppercase">
+                       <a href="#" class="log-up">Enregistrement</a>
+                       <a href="#" class="login"> Accéder</a>
+                 </div>
+                   <div class="burger">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                   </div>
                     <div class="collapse navbar-collapse justify-content-center  " id="navbarNav">
                     <ul class="navbar-nav text-uppercase  fw-bold">
                         
@@ -61,12 +67,12 @@
                     </ul>
                    
                     </div>
-                    
-                </div>
-                <div class="d-flex connect text-uppercase">
+                    <div class="d-flex connect-right connect text-uppercase">
                        <a href="#" class="log-up">Enregistrement</a>
                        <a href="#" class="login"> Accéder</a>
-                    </div>
+                 </div>
+                </div>
+               
             </nav>
         
         <div class="banner">
