@@ -11,24 +11,6 @@
   </head>
   <body>
 
-            <!-- <nav>
-                <input type="checkbox" id="nav-toogle">
-                <div class="logo"> <a href="#"> <img src="assets/images/papizza/logo_papizza.png" alt="papizza" ></a></div>
-                <ul class="menu">
-                    <li><a href="#"> Nos pizza</a> </li>
-                    <li><a href="#"> Menu</a> </li>
-                    <li><a href="#">Local</a> </li>
-                    <li><a href="#">Passez vos commandes</a> </li>
-                    <li><a href="#">Ouvrez votre franchise</a> </li>
-                    <li><a href="#">Contact</a> </li>
-                   
-                </ul>
-                <label for="nav-toogle" class="icon-burger">
-                    <div class="line"></div>
-                   <div class="line"> </div>
-                </label>
-            </nav>
-             -->
             <nav class="navbar navbar-expand-lg  ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
@@ -44,7 +26,7 @@
                         </button>
                    </div>
                     <div class="collapse navbar-collapse justify-content-center  " id="navbarNav">
-                    <ul class="navbar-nav text-uppercase  fw-bold">
+                    <ul class="navbar-nav text-uppercase ">
                         
                         <li class="nav-item ">
                         <a class="nav-link active" aria-current="page" href="#">NOS PIZZA</a>

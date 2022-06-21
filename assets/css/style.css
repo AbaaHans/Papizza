@@ -1,17 +1,24 @@
-
-
-/* \* 
- Partie header
-/* */
-/* body{
-    margin: 0;
-    padding: 0;
-} */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
 }
+
+
 
 .navbar {
     position: fixed;
@@ -28,6 +35,20 @@
     z-index: 999;
     
 }
+nav .navbar-nav li a{
+    font-family: "Veneer", Arial, sans;
+    color: #010101;
+    line-height: 1.4;
+    justify-content: space-between;
+    font-size:20px; 
+}
+.navbar-nav .active,
+.navbar-nav li a:hover{
+    color: #010101;
+  border-bottom: 3px solid #cf2027 ;
+
+}
+
 
 @media screen and (max-width:984px) {
     nav .logo{
@@ -44,7 +65,7 @@
     nav .navbar-nav{
         position:relative;
         float: right;
-        top:30px;
+        top:20px;
         left: 0;
         right: 80px;
         bottom: 0;
@@ -56,10 +77,10 @@
         padding: 10px;
 
     }
-    nav  .navbar-nav  a{
+    nav  .navbar-nav li a{
         padding: 8px;
         font-size: 12px;
-        color: #fff;
+        color: #fff !important;
 
     }
  
@@ -72,12 +93,7 @@
   
    
 }
- .navbar-nav .active,
-  .navbar-nav li a:hover{
 
-  border-bottom: 3px solid #cf2027 ;
-
-}
 
 nav .connect{
     display: flex;
@@ -85,14 +101,15 @@ nav .connect{
 }
 
 .connect a{
+    font-family: "Veneer", Arial, sans;
     text-decoration: none;
-    border: 1px solid #fff;
     padding: 2px;
-    margin: 5px;
+    margin: 5px 10px 0px;
     text-align: center;
     color: #fff;
-    font-size: 10px;
+    font-size:18px;
 }
+
 .connect .log-up {
     background:#cf2027;
 }
@@ -102,23 +119,57 @@ nav .connect{
 .connect a:hover{
     color: #fff;
 }
-/* @media screen and (max-width:524) {
-    
-    .connect a{
-        font-size: 10px;
-    }
-    .connect .log-up{
-        font-size: 10px;
-    }
-    .connect  .login{
-        font-size: 10px;
-    }
 
-} */
+@media screen and (max-width:652) {
+
+    .connect a{
+        font-size: 10px !important;
+    }
+}
+
+
 
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+  }
+
+  @font-face {
+    font-family: "Futura";
+    src: url("../fonts/FuturaStd-Medium.woff2") format("woff2"), url("../fonts/FuturaStd-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Futura";
+    src: url("../fonts/FuturaStd-Bold.woff2") format("woff2"), url("../fonts/FuturaStd-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Veneer";
+    src: url("../fonts/Veneer.woff2") format("woff2"), url("../fonts/Veneer.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Veneer";
+    src: url("../fonts/Veneer-Italic.woff2") format("woff2"), url("../fonts/Veneer-Italic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "fontello";
+    src: url("../fonts/fontello.eot?89225120");
+    src: url("../fonts/fontello.eot?89225120#iefix") format("embedded-opentype"), url("../fonts/fontello.woff2?89225120") format("woff2"), url("../fonts/fontello.woff?89225120") format("woff"), url("../fonts/fontello.ttf?89225120") format("truetype"), url("../fonts/fontello.svg?89225120#fontello") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "fontello-tiktok";
+    src: url("../fonts/fontello_tiktok.woff2?89225120") format("woff2"), url("../fonts/fontello_tiktok.woff?89225120") format("woff");
+    font-weight: normal;
+    font-style: normal;
   }
 
 
