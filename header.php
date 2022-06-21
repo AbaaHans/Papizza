@@ -47,7 +47,7 @@
                     <ul class="navbar-nav text-uppercase  fw-bold">
                         
                         <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="#">NOS PIZZA</a>
+                        <a class="nav-link active" aria-current="page" href="#">NOS PIZZA</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#">MENU</a>
