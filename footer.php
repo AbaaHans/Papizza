@@ -1,17 +1,44 @@
 
-<div class="container-fluid footer-legal">
-    <div class="row footer-social">
-        <div class="col"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
-        <div class="col"><a href="#"><i class="fa-brands fa-tiktok"></i></a></div>
-        <div class="col"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+<footer class="footer">
+    <div class="footer-legal-social">
+        <ul class="footer-social">
+            <li class="social-option"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="social-option"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li class="social-option"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <ul class="footer-legal">
+            <ll class="footer-legal__option footer-legal__option-1">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                POLITIQUE DE CONFIDENTIALITÉ ET COOKIES
+                </a>
+            </ll>
+            <ll class="footer-legal__option footer-legal__option-2">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                AVIS JURIDIQUE
+                </a>
+            </ll>
+            <ll class="footer-legal__option footer-legal__option3">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                TRAVAILLE AVEC NOUS
+                </a>
+            </ll>
+        </ul>
+    </ul>
     </div>
-    <div class="row footer-mention">
-        <div class="col"> <a href="#">Politique de confidancialité</a></div>
-        <div class="col"> <a href="#">mention legal</a></div>
-        <div class="col"> <a href="#">menu</a></div>
-        <div class="col"> <a href="#">Politique de confidancialité</a></div>
+    <div class="footer-jmlgroup">
+        <div class="logo-footer">
+            <a href="index.php"> <img src="assets/images/papizza/logo_papizza.png" alt="papizza.ma" ></a>
+           
+        </div>
+        <div class="footer-copyright">
+            JMLGROUP S.A. © TOUS DROITS RÉSERVÉS.
+        </div>
+      
+        <p class="float-right text-uppercase  fw-bold">
+           <a href="#top"><i class="fa-solid fa-circle-caret-up" style="font-size: 40px;"></i></a>
+        </p>
     </div>
-</div>
+    
+</footer>
 
 <script src="./assets/js/app.js"> </script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>

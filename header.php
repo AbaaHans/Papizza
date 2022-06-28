@@ -5,15 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Papizza | <?= $page; ?></title>
+    <link rel="shortcut icon" href="assets/images/papizza/logo_papizza.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
 
-            <nav class="navbar navbar-expand-lg  ">
+            <nav class="navbar navbar-expand-lg fixed-top  ">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.php">
                         <img src="assets/images/papizza/logo_papizza.png" class="logo" alt="papizza" srcset="">
                     </a>
                     <div class="d-flex d-none connect-left connect text-uppercase">
@@ -57,9 +58,7 @@
                
             </nav>
         
-        <div class="banner">
-       
-        </div>
+        
 
   </body>
 
