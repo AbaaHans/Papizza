@@ -929,6 +929,10 @@ figcaption{
 }
 
 
+/* 
+Footer 
+ */
+
 
 .footer{
     font-family: "Futura", Arial, sans;
@@ -937,7 +941,7 @@ figcaption{
     z-index: 30;
     width: 100%;
     background: #545253;
-    height: 70vh;
+    height: 65vh;
 }
 footer{
   display: block;
@@ -1027,3 +1031,304 @@ li {
 .footer-copyright{
   font-size: 0.75em;
 }
+
+/* 
+Page menu
+ */
+
+ .menu-pizza {
+  padding-top: 100vh;
+  overflow-x: hidden;
+ }
+ @media (min-width: 769px){
+  .menu-pizza .menu-cover {
+    background-image: url(../images/papizza/header.jpg);
+  }
+}
+
+.menu-pizza .menu-cover {
+  background: url(../images/papizza/header.jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (min-width: 769px){
+  .menu-cover {
+    padding-bottom: 41.1420204978%;
+}
+}
+
+.menu-cover {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  min-height: 100vh;
+  padding-bottom: 145.8%;
+}
+
+.pizza-slice__icon {
+  width: 265px;
+}
+.pizza-slice__icon {
+  top: 120px;
+  top: calc(calc(7.1614583333vh) + 80px);
+  position: fixed;
+  text-align: center;
+  width: 266px;
+  height: 266px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@media (min-width: 769px){
+  .cover-title {
+    font-size: 1.875em;
+    background: #cf2027;
+    flex-direction: row;
+}
+}
+@supports (grid-area: auto){
+  .cover-title {
+    font-size: 1.875em;
+    background: #cf2027;
+    flex-direction: row;
+}
+}
+.cover-title {
+  position: fixed;
+  top: 350px;
+  top: calc(calc(7.1614583333vh) + ( 65px + 166px ) + 80px);
+  width: auto;
+  left: 50%;
+  font-size: 1.25em;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: white;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (min-width: 769px){
+  .cover-line {
+    top: calc(calc(7.1614583333vh) + ( 65px + 166px + 65px ) + 80px);
+}
+}
+@supports (grid-area: auto){
+  .cover-line {
+    top: calc(calc(7.1614583333vh) + ( 65px + 166px + 65px ) + 80px);
+}
+}
+
+.cover-line {
+  position: fixed;
+  top: 490px;
+  top: calc(calc(7.1614583333vh) + ( 65px + 166px + 150px ) + 80px);
+  width: 1px;
+  background: #f5e0c3;
+  height: 83px;
+  height: calc(calc(9.5052083333vh) + 50px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+@media (min-width: 769px){
+  .pilule2 {
+    display: none;
+}
+}
+
+.pilule2{
+  position: absolute;
+  left: 6px;
+  width: 185px;
+  bottom: 70px;
+  display: block;
+}
+.cover-accueil {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #cf2027;
+  color: white;
+  font-size: 1.25em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  padding-bottom: 0;
+  z-index: 10;
+}
+
+ .social-menu{
+    position: absolute;
+    bottom: 0.5em;
+    right: 20px;
+    color: #f5e0c3;
+    font-size: 1.875em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+ }
+ @media (min-width: 769px){
+  .pilule {
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+}
+ }
+
+ .social-menu-option:first-child {
+  margin-right: 1.8301610542%;
+}
+.social-menu-option {
+  text-shadow: 0 0 20px rgb(1 1 1 / 50%);
+}
+
+.menu-intro{
+  position: relative;
+  z-index: 10;
+  color: #bf7e24;
+  background: #f6e3a5 url(../images/papizza/triangle-tile.jpg) repeat top left;
+  padding: 4.5625em 2.3125em;
+  font-family: "Futura", Arial, sans;
+}
+.menu-intro p {
+  font-size: 13px;
+}
+@media screen and (min-width: 900px){
+  .menu-intro p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 320px){
+  .menu-intro p {
+    font-size: calc(13px + 5 * ((100vw - 320px) / 580));
+  }
+}
+
+
+@media (min-width: 769px){
+  .menu-table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "al-gusto al-gusto"
+        "elige elige"
+        "al-corte al-corte"
+        "gruesa fina"
+        "complementos postres";
+}
+
+}
+@supports (grid-area: auto){
+  .menu-table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "al-gusto al-gusto"
+        "elige elige"
+        "al-corte al-corte"
+        "gruesa fina"
+        "complementos postres";
+  }
+}
+
+.menu-table{
+  background: #eae7e7 url(../images/papizza/bg-pizza.jpg) no-repeat center 200px;
+  position: relative;
+  z-index: 20;
+  /* height: 100vh; */
+}
+
+
+
+@media (min-width: 769px){
+  .menu-pizza-au-goût {
+    grid-area: al-gusto;
+}
+
+}
+@supports (grid-area: auto){
+  .menu-pizza-au-goût {
+    grid-area: al-gusto;
+
+  }
+
+}
+
+@media (min-width: 769px){
+  .menu-pizza-au-goût {
+    background-size: 450px auto;
+}
+
+}
+@supports (grid-area: auto){
+  .menu-pizza-au-goût {
+    background-size: 450px auto;
+
+  }
+}
+
+@media (min-width: 769px){
+  .menu-pizza-au-goût {
+    padding-top: 0;
+    background: url(../images/papizza/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top;
+}
+
+}
+@supports (grid-area: auto){
+  .menu-pizza-au-goût {    padding-top: 0;
+    background: url(../images/papizza/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top;
+  }
+}
+
+
+.menu-category-pizza-gouter-texts{
+  padding: 4.75em 2.3125em 3.125em 2.3125em;
+  width: auto;
+}
+
+@media (min-width: 769px){
+  .menu-category-pizza-gouter-title, .carta__menu-category-pizza-gouter-description {
+    margin-left: 14.7144948755%;
+    width: 35.3587115666%;
+}
+
+}
+@supports (grid-area: auto){
+  .menu-category-pizza-gouter-title, .carta__menu-category-pizza-gouter-description {
+    margin-left: 14.7144948755%;
+    width: 35.3587115666%;
+}
+
+}
+
+.menu-category-pizza-gouter-title{
+    color: #cf2027;
+    font-family: "Veneer", Arial, sans;
+}
+
+.menu-category-pizza-gouter-title{
+  font-size: 4.375em;
+    line-height: 1;
+    margin-bottom: 0.2441860465em;
+    text-transform: uppercase;
+   
+}
+
+
+

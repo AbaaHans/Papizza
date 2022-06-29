@@ -5,6 +5,8 @@
             <li class="social-option"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
             <li class="social-option"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
             <li class="social-option"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+
+           
             <ul class="footer-legal">
             <ll class="footer-legal__option footer-legal__option-1">
                 <a href="#" target="_blank" rel="noopener noreferrer">
@@ -24,20 +26,19 @@
         </ul>
     </ul>
     </div>
+   
     <div class="footer-jmlgroup">
         <div class="logo-footer">
-            <a href="index.php"> <img src="assets/images/papizza/logo_papizza.png" alt="papizza.ma" ></a>
-           
+            <a href="index.php"> <img src="assets/images/papizza/logo_papizza.png" alt="papizza.ma" ></a>   
         </div>
         <div class="footer-copyright">
             JMLGROUP S.A. © TOUS DROITS RÉSERVÉS.
         </div>
       
-        <p class="float-right text-uppercase  fw-bold">
-           <a href="#top"><i class="fa-solid fa-circle-caret-up" style="font-size: 40px;"></i></a>
-        </p>
     </div>
-    
+    <div class="up-icon" style=" float:right; margin: 30px;margin-top: -150px;">
+           <a href="#"> <img src="assets/images/papizza/up-icon.svg"  alt ></a>
+    </div>
 </footer>
 
 <script src="./assets/js/app.js"> </script>
