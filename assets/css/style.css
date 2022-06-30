@@ -1286,13 +1286,13 @@ Page menu
 @media (min-width: 769px){
   .menu-pizza-au-goût {
     padding-top: 0;
-    background: url(../images/papizza/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top;
+    background: url(../images/papizza/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
 }
 
 }
 @supports (grid-area: auto){
   .menu-pizza-au-goût {    padding-top: 0;
-    background: url(../images/papizza/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top;
+    background: url(../images/papizza/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
   }
 }
 
@@ -1303,14 +1303,14 @@ Page menu
 }
 
 @media (min-width: 769px){
-  .menu-category-pizza-gouter-title, .carta__menu-category-pizza-gouter-description {
+  .menu-category-pizza-gouter-title, .menu-category-pizza-gouter-description {
     margin-left: 14.7144948755%;
     width: 35.3587115666%;
 }
 
 }
 @supports (grid-area: auto){
-  .menu-category-pizza-gouter-title, .carta__menu-category-pizza-gouter-description {
+  .menu-category-pizza-gouter-title, .menu-category-pizza-gouter-description {
     margin-left: 14.7144948755%;
     width: 35.3587115666%;
 }
@@ -1322,12 +1322,244 @@ Page menu
     font-family: "Veneer", Arial, sans;
 }
 
-.menu-category-pizza-gouter-title{
+.menu-category-pizza-gouter-title, .menu-category-pizzas-au-tribune-title{
   font-size: 4.375em;
     line-height: 1;
     margin-bottom: 0.2441860465em;
     text-transform: uppercase;
    
+   
+}
+strong {
+  font-weight: bold;
+}
+.menu-category-pizza-gouter-description p{
+  font-family: "Futura", Arial, sans;
+}
+
+@media (min-width: 769px){
+  .menu-pizza-au-tribune {
+    grid-area: al-corte;
+}
+}
+@supports (grid-area: auto){
+  .menu-pizza-au-tribune {
+    grid-area: al-corte;
+}
+}
+
+.menu-table-category {
+  background: #eae7e7 url(../images/papizza/body-bg-tile.jpg) repeat top left;
+}
+
+@media (min-width: 769px){
+  .menu-category-header-pizzas-au-tribune {
+    background: #eae7e7 url(../images/papizza/bg-pizza.jpg) no-repeat center top;
+    background-size: contain;
+    display: -webkit-box;
+    display: -webkit-flex;
+    /* display: -ms-flexbox; */
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+}
+@supports (grid-area: auto){
+  .menu-category-header-pizzas-au-tribune {
+    background: #eae7e7 url(../images/papizza/bg-pizza.jpg) no-repeat center top;
+    background-size: contain;
+    display: -webkit-box;
+    display: -webkit-flex;
+    /* display: -ms-flexbox; */
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+}
+
+@media (min-width: 769px){
+  .menu-cabecera-image-au-tribune {
+    padding-bottom: 27.2%;
+    width: 50%;
+    max-height: 250px;
+    flex-shrink: 0;
+}
+
+}
+@supports (grid-area: auto){
+  .menu-cabecera-image-au-tribune {
+    padding-bottom: 27.2%;
+    width: 50%;
+    max-height: 250px;
+    flex-shrink: 0;
+}
+.menu-cabecera-image-au-tribune{
+  background-size: cover;
+}
+
+}
+@media (min-width: 769px){
+  .menu-category-pizzas-au-tribune-title, .menu-category-pizzas-au-tribune-description {
+    margin-left: 29.4289897511%;
+    width: 70.7174231332%;
+}
+
+}
+@supports (grid-area: auto){
+  .menu-category-pizzas-au-tribune-title, .menu-category-pizzas-au-tribune-description {
+    margin-left: 29.4289897511%;
+    width: 70.7174231332%;
+}
+
+}
+.menu-category-pizzas-au-tribune-descriptio, .menu-category-pizza-gouter-description{
+  font-size: 3.375em;
+  line-height: 1;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  
+}
+.menu-category-pizzas-au-tribune-title{
+  font-family: "Veneer", Arial, sans;
+  color: #010101;
+}
+
+
+@media (min-width: 769px){
+  .menu-pâte-épaisse {
+    grid-area: gruesa;
+    background: #eae7e7;
+    padding-left: 26.3543191801%;
+}
+}
+@supports (grid-area: auto){
+  .menu-pâte-épaisse {
+    grid-area: gruesa;
+    background: #eae7e7;
+    padding-left: 26.3543191801%;
+}
+}
+.menu-category-pâte-épaisse-texts,.menu-category-pâte-fine-texts {
+  padding: 2.5em 2.3125em 1.25em 2.3125em;
+}
+.menu-category-pâte-épaisse-title {
+  font-size: 2.875em;
+  line-height: 1;
+  margin-bottom: 0.4565217391em;
+  text-transform: uppercase;
+  font-family: "Veneer", Arial, sans;
+  color: #010101;
+}
+.menu-category-pâte-fine-title {
+  font-size: 2.875em;
+  line-height: 1;
+  margin-bottom: 0.4565217391em;
+  text-transform: uppercase;
+  font-family: "Veneer", Arial, sans;
+  color: #4d0205;
+}
+
+.menu-produit-title, .produits-pâte-fine-title{
+  font-family: "Futura", Arial, sans;
+    font-size: 1.4375em;
+    padding: 0 1.6086956522em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-produit-description, .produits-pâte-fine-description{
+  font-family: "Futura", Arial, sans;
+    padding: 0 2.1764705882em;
+    text-transform: uppercase;
+    font-size: 1.0625em;
+    padding-bottom: 2.3529411765em;
+}
+
+@media (min-width: 769px){
+  .menu-pâte-fine {
+    background: #eae7e7;
+    grid-area: fina;
+}
+}
+@supports (grid-area: auto){
+  .menu-pâte-fine {
+    background: #eae7e7;
+    grid-area: fina;
+}
+}
+
+.menu-pâte-fine,.produits-pâte-fine-title .produits-pâte-fine-description{
+  color: #4d0205;
+    padding-bottom: 2.3125em;
+}
+@media (min-width: 769px){
+  .menu-starters {
+    grid-area: complementos;
+}
+}
+@supports (grid-area: auto){
+  .menu-starters {
+    grid-area: complementos;
+}
+}
+
+.menu-starters{
+  background: url(../images/papizza/complementos-icons.jpg) no-repeat right -120px, url(../images/papizza/complementos-tile.jpg) repeat left top;
+}
+@media (min-width: 769px){
+  .menu-starters  .menu-category-starters-texts {
+    margin-left: 20.4978038067%;
+    margin-right: 20.4978038067%;
+}
+}
+@supports (grid-area: auto){
+  .menu-starters .menu-category-starters-texts {
+    margin-left: 20.4978038067%;
+    margin-right: 20.4978038067%;
+}
+}
+
+.menu-starters .menu-category-starters-texts,  .menu-desserts .menu-category-desserts-texts{
+  margin: 0;
+}
+.menu-category-starters-texts{
+padding: 4.75em 2.3125em 3.125em 2.3125em;
+}
+.menu-category-starters-title, .menu-category-desserts-title{
+  font-size: 3.6875em;
+  font-weight: bold;
+  font-family: "Veneer", Arial, sans;
+  color: #010101;
+  text-transform: uppercase;
+}
+
+.menu-category-starters-descritpion, .menu-category-desserts-descritpion
+{
+  font-family: "Futura", Arial, sans;
+  text-transform: uppercase;
+  font-size: 0.8125em;
+  margin-bottom: 3.0769230769em;
+}
+@media (min-width: 769px){
+  .menu-desserts .menu-category-desserts-texts {
+    margin-left: 20.4978038067%;
+    margin-right: 20.4978038067%;
+}
+
+}
+
+@supports (grid-area: auto){
+  .menu-desserts .menu-category-desserts-texts {
+    margin-left: 20.4978038067%;
+    margin-right: 20.4978038067%;
+}
+
+}
+
+.menu-category-desserts-texts {
+padding: 4.75em 2.3125em 3.125em 2.3125em;
 }
 
 
