@@ -1036,7 +1036,7 @@ li {
 Page menu
  */
 
- .menu-pizza {
+ .menu-pizza, .local-papizza {
   padding-top: 100vh;
   overflow-x: hidden;
  }
@@ -1205,7 +1205,7 @@ Page menu
   font-family: "Futura", Arial, sans;
 }
 .menu-intro p {
-  font-size: 13px;
+  font-size: 15px !important;
 }
 @media screen and (min-width: 900px){
   .menu-intro p {
@@ -1251,7 +1251,6 @@ Page menu
   background: #eae7e7 url(../images/papizza/bg-pizza.jpg) no-repeat center 200px;
   position: relative;
   z-index: 20;
-  /* height: 100vh; */
 }
 
 
@@ -1542,6 +1541,23 @@ padding: 4.75em 2.3125em 3.125em 2.3125em;
   font-size: 0.8125em;
   margin-bottom: 3.0769230769em;
 }
+
+
+
+@media (min-width: 769px){
+  .menu-desserts {
+    grid-area:postres;
+}
+}
+@supports (grid-area: auto){
+  .menu-desserts {
+    grid-area: postres;
+}
+}
+.menu-desserts{
+  background: url(../images/papizza/desserts.png) no-repeat center -120px, url(../images/papizza/dessert-tile.png) repeat left top;
+}
+
 @media (min-width: 769px){
   .menu-desserts .menu-category-desserts-texts {
     margin-left: 20.4978038067%;
@@ -1557,6 +1573,9 @@ padding: 4.75em 2.3125em 3.125em 2.3125em;
 }
 
 }
+.menu-desserts .menu-category-desserts-texts {
+ margin: 0;
+}
 
 .menu-category-desserts-texts {
 padding: 4.75em 2.3125em 3.125em 2.3125em;
@@ -1564,3 +1583,153 @@ padding: 4.75em 2.3125em 3.125em 2.3125em;
 
 
 
+
+/* Page Local */
+@media (min-width: 769px)
+{
+  .local-papizza .cover-local {
+    background-image: url(../images/papizza/header-local.jpg);
+}
+}
+.local-papizza .cover-local{
+  background: url(../images/papizza//header-local.jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media (min-width: 769px){
+  .cover-local {
+    padding-bottom: 41.1420204978%;
+}
+}
+.cover-local{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  min-height: 100vh;
+}
+
+.local-intro{
+  font-size: 0.875em;
+  background: #f0f0f0 url(../images/papizza/tile-bg-corte.jpg) repeat top left;
+  position: relative;
+  z-index: 10;
+  font-family: "Futura", Arial, sans;
+  text-transform: uppercase;
+  padding: 4.625em 1.6875em;
+}
+@media (min-width: 769px)
+{
+  .local-wrapper {
+    width: 71.4494875549%;
+}
+}
+.local-wrapper{
+  width: 87.2%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px)
+{
+  .local-intro p {
+    font-size: 13px !important;
+}
+}
+@media screen and (min-width: 320px)
+{
+  .local-intro p {
+    font-size: calc(13px + 5 * ((100vw - 320px) / 580));
+}
+}
+.local-information {
+  background: url(../images/papizza/body-bg-tile.jpg) repeat;
+}
+
+@media (min-width: 769px){
+  .local-information, .franquicia-informacion, .franquicia-tipos, .franquicia__gracias {
+    padding-top: 4.625em;
+}
+}
+
+.local-information{
+  position: relative;
+  z-index: 20;
+  padding-bottom: 3.125em;
+}
+.local-information-title{
+  max-width: 70%;
+  margin: 0 auto 0 14.7144948755%;
+  font-size: 5.375em;
+    color: #cf2027;
+    line-height: 1;
+    font-family: "Veneer", Arial, sans;
+    width: 85.2%;
+}
+
+
+.local-map {
+  position: relative;
+}
+
+@media (min-width: 1024px){
+  .local-map-liste {
+    position: absolute;
+    background: #cf2027;
+    z-index: 5;
+    padding: 0;
+    min-width: 301px;
+    left: 9.5168374817%;
+    max-height: 100%;
+    overflow-y: auto;
+   
+  }
+}
+.local-map-liste{
+  background: #8eb3d1;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5.625em 0;
+  min-width: none;
+
+}
+
+.local-map-locaux{
+  background: #cf2027;
+    padding: 7.6470588235%;
+    width: 88.2352941176%;
+    max-width: 350px;
+}
+
+.local-map-local{
+  font-family: "Futura", Arial, sans;
+  margin-bottom: 0.9375em;
+}
+.local-map-lacal-title{
+  color: white;
+    font-size: 1.5625em;
+}
+.local-map-province{
+  transition: max-height 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.local-map-province-adress{
+  color: #010101;
+  font-size: 1.3125em;
+  margin-bottom: 0.4761904762em;
+}
+
+
+
+@media (min-width: 1024px){
+  .local-map-deco {
+    padding-bottom: 73.6456808199%;
+    max-height: calc(100vh - 120px);
+}
+}
+
+.local-map-deco{
+    position: relative;
+    background: url(../images/papizza/deco4.jpg) no-repeat center center !important;
+    background-size: cover;
+}

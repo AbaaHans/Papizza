@@ -36,10 +36,10 @@
                         <a class="nav-link" href="menu.php">MENU</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">LOCAL</a>
+                        <a class="nav-link" href="local.php">LOCAL</a>
                         </li>
                        <li class="nav-item">
-                        <a class="nav-link " href="#">OUVREZ VOTRE FRANCHISE</a>
+                        <a class="nav-link " href="franchise.php">OUVREZ VOTRE FRANCHISE</a>
                         </li> 
                         <li class="nav-item">
                         <a class="nav-link " href="#">PASSEZ VOS COMMANDES</a>

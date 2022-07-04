@@ -44,7 +44,7 @@ include 'header.php';
             </div>
         </div>
     </div>
-    <div class="menu-table">
+    <div class="menu-table container-fluid">
         <div class="menu-table-category menu-pizza-au-goût">
             <a href="#" name="pizza-au-goût"></a>
             <div class="menu-category-header">
@@ -251,7 +251,6 @@ include 'header.php';
                         <p>Finir par un bon dessert est essentiel. Consultez nos propositions et clôturez votre dîner avec une saveur incomparable comme nos crêpes, glaces ou coupes de mousse.</p>
                        
                     </div>
-                   
                 </div>
             </div>
             <strong>
