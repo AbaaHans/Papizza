@@ -49,27 +49,77 @@ include 'header.php';
         <div class="franchise-formulaire col-md-6">
             <form class="formulaire" action method="post">
                     <div class="formulaire-form">Demander des informations sur la franchise</div>
-                       <div class="row">
-                            <div class="col-md-6">
-                                <label for="Nome">Nom</label>
-                                <input type="text" class="input-text">
+                    
+                            <fieldset class="franchise-formulaire-name">
+                                <!-- <label for="Nome">Nom</label> -->
+                                <input type="text" name="firstname" class="input-form" placeholder="Nom..." required value>
+                                <!-- <label for="prenom">Prénom</label> -->
+                                <input type="text" name="lastname" class="input-form" placeholder="Prénom..." required value>
                        
+                            </fieldset>
+                       
+                       <fieldset class="franchise-formulaire-name">   
+                          
+                            <input type="email" class="input-form"  placeholder="Email..." required value>
+                            <input type="tel"  class="input-form"  placeholder="Téléphone..." required value> 
+                        </fieldset>
+                        <fieldset class="franchise-formulaire-name">
+                           <label for="message">Message</label>
+                            <textarea   class="formulaire-textarea" rows="4" cols="50" ></textarea>
+                       </fieldset>           
+                
+
+                        <fieldset class="franchise-formulaire-name">
+                            <div class="button-envoie" >
+                            <input type="submit" class="submit" value="Envoyer">
                             </div>
-                            <div class="col-md-6">
-                                <label for="prenom">Prénom</label>
-                                <input type="text">
-                            </div>
-                       </div>
-                        <label for="email">Email</label>
-                        <input type="email">
-                        <label for="Téléphone">Téléphone</label>
-                        <input type="tel">
-                        <label for="ProI">Province d'intérêt</label>
-                        <select name="" id="">
-                            <option value=""></option>
-                        </select>
+                       </fieldset> 
+
+                       
             </form>
         </div>
+    </div>
+    <div class="types-de-franchises">
+        <h2 class="types-de-franchises-title">
+            Types
+            <br>
+            des locaux
+        </h2>
+        <p class="types-franchises-paragraph">
+            PENSEZ OÙ VOUS VOULEZ IMPLIQUER VOTRE ENTREPRISE ET NOUS VOUS GUIDERONS SUR LE CHEMIN.
+            VOUS SOUHAITEZ OPÉRER DANS UN <strong>CENTRE COMMERCIAL,
+            UNE GARE OU UN AÉROPORT </strong>? PEUT-ÊTRE PRÉFÉREREZ-VOUS VOUS <strong>ÉTABLIR DANS UNE RUE CENTRALE</strong>
+            AVEC TRANSPORT EN COMMUN CONTINU. 
+            DANS LE DERNIER CAS, L'AMPLITUDE DEVRAIT ETRE PLUS GRANDE.
+        </p>
+        <p class="types-franchises-paragraph">
+            CONTACTEZ-NOUS ET RECEVEZ PLUS DE DÉTAILS SUR 
+            L'EXTENSION QUE CHAQUE LOCAL DEVRAIT AVOIR SELON VOS PRÉFÉRENCES.
+            HEUREZ-VOUS DE FAIRE PARTIE DE LA FAMILLE PAPIZZA !
+        </p>
+        <p class="types-franchises-paragraph">
+            ALORS ARRÊTEZ DE L'IMAGER ET PARTEZ ! OUVREZ 
+            VOTRE PROPRE PAPIZZA ET FAITES PARTIE DE 
+            CETTE RÉFÉRENCE AUTHENTIQUE DU SECTEUR DE 
+            LA RESTAURATION RAPIDE ITALIENNE. 
+            PARIEZ SUR<strong> L'UNE DES FRANCHISES LES PLUS
+            RENTABLES, POLYVALENTES ET PRESTIGIEUSES
+            D'ESPAGNE</strong>. INNOVATION ET MODERNITÉ SE 
+            FUSIONNENT DANS CE MODÈLE DONT 
+            LE FONCTIONNEMENT PERMET D'UNIFORMISER 
+            TOUS LES PROCESSUS
+        </p>
+        <p class="types-franchises-paragraph">
+            DÉCIDEZ DE FAIRE PARTIE DE NOTRE FAMILLE 
+            ET REJOIGNEZ UNE<strong> FRANCHISE DE PIZZA DU PRÉSENT
+            ET DU FUTUR</strong>. NOUS CONTACTER!
+            
+            <br>
+            <br>
+            <a href="contact.php" class="types-franchises-btn">NOUS CONTACTER</a>
+        </p>
+       
+       
     </div>
 </div>
 

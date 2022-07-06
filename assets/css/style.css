@@ -104,6 +104,7 @@ nav .navbar-nav li a{
 }
 
 
+
 nav .connect{
     display: flex;
     flex-direction: column;
@@ -1033,7 +1034,7 @@ li {
 }
 /* 
 Classe commune */
-.menu-pizza, .local-papizza, .Franchise {
+.menu-pizza, .local-papizza, .Franchise,.commande {
   padding-top: 100vh;
   overflow-x: hidden;
  }
@@ -1647,7 +1648,7 @@ padding: 4.75em 2.3125em 3.125em 2.3125em;
 }
 
 @media (min-width: 769px){
-  .local-information, .franchise-information, .franquicia-tipos, .franquicia__gracias {
+  .local-information, .franchise-information, .types-de-franchises, .franquicia__gracias {
     padding-top: 4.625em;
 }
 }
@@ -1815,10 +1816,15 @@ page franchise
     order: 1;
   }
 }
+.franchise-information{
+  position: relative;
+    z-index: 20;
+    padding-bottom: 3.125em;
+}
 @media (min-width: 767px){
-  .franchise-information-title, .franchise-information-paragrah {
+  .franchise-information-title,.types-de-franchises-title, .franchise-information-paragrah , .types-franchises-paragraph{
     max-width: 70%;
-    margin: 0 auto 0 14.7144948755%;
+    margin: 0 auto 0 10.7144948755%;
   }
 }
 .franchise-information {
@@ -1826,30 +1832,42 @@ page franchise
   
 }
 
-.franchise-information-title {
-  font-size: 3.5em !important;
-  color: white;
-  line-height: 1;
-  margin-bottom: 5% !important;
+.franchise-information-title .types-de-franchises-title {
   width: 85.2%;
+}
+.franchise-information-title {
+  font-size: 4.2em;
+  color: white;
+  margin-bottom: 5% !important;
+  font-family: 'Veneer',Arial, sans;
 }
 
 @media (min-width: 767px){
-  .franchise-information-paragrah {
+  .franchise-information-paragrah, .types-franchises-paragraph {
     max-width: 70%;
     margin: 0 auto 0 14.7144948755%;
   }
 }
-
+.franchise-information-paragrah{
+  font-family: 'Futura',Arial,sans !important;
+  font-size: 14px !important;
+  margin: 0px 114.583px 23px 110.26px !important;
+}
 
 
 .franchise-information-paragrah{
   position: relative;
   z-index: 20;
-  /* padding-top: 12.625em; */
   padding-bottom: 3.125em;
   background: url(../images/locales/foto-local.jpg) no-repeat right top, url(../images/papizza/body-bg-tile.jpg) repeat;
-  /* background-size: 60% auto, auto auto; */
+ 
+}
+
+@media screen and (max-width: 769px) {
+  .franchise-information-paragrah{
+    text-align: center !important;
+    font-size: 10px !important;
+  }
 }
 
 @media (min-width: 769px){
@@ -1881,7 +1899,7 @@ page franchise
     grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, minmax(10px, auto));
-    grid-template-areas:
+    /* grid-template-areas:
         "title title"
         "name lastname"
         "email phone"
@@ -1889,7 +1907,7 @@ page franchise
         "comment comment"
         "comms comms"
         "policy policy"
-        "captcha submit";
+        "captcha submit"; */
 }
 
 }
@@ -1901,7 +1919,7 @@ page franchise
     grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, minmax(10px, auto));
-    grid-template-areas:
+    /* grid-template-areas:
         "title title"
         "name lastname"
         "email phone"
@@ -1909,22 +1927,340 @@ page franchise
         "comment comment"
         "comms comms"
         "policy policy"
-        "captcha submit";
+        "captcha submit"; */
 }
 
 }
 .formulaire{
   position: relative;
   text-align: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  /* align-items: left; */
+  align-items: left;
   font-family: "Futura", Arial, sans;
   padding: 4.625em 1.6875em;
-  /* background-color: white; */
   color: #545253;
 }
-.formulaire-form .input-text{
-  margin: 10px;
+
+@media (min-width: 769px){
+}
+.franchise-formulaire-name {
+    grid-area: name;
+}
+
+@supports (grid-area: auto){
+
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  /* border-width: 2px; */
+  /* border-style: groove;
+  border-color: rgb(192, 192, 192);
+  border-image: initial; */
+}
+.franchise-formulaire-name {
+    grid-area: name;
+    margin-top:20px;
+}
+
+.input-form{
+  
+    border-width: 2px;
+    border-color: #010101;
+    width: 45%;
+    margin-bottom: 1.25em;
+    padding: 4px 8px;
+    margin: 10px;
+    
+}
+
+@media screen and (max-width: 769px) {
+  .input-form{
+    width: 93%;
+  }
+}
+
+input, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input {
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: field;
+  margin: 0em;
+}
+.formulaire-textarea{
+  border-width: 2px;
+  border-color: #010101;
+  width: 100%;
+  margin-bottom: 1.25em;
+  padding: 4px 8px;
+}
+textarea {
+  writing-mode: horizontal-tb !important;
+  font-family: monospace;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  resize: auto;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  background-color: field;
+  column-count: initial !important;
+  margin: 0em;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+}
+
+.button-envoie{
+  float: right;
+}
+.button-envoie input[type="submit"],
+.cmd-pizza{
+  background: #010101;
+  color: #fff;
+  padding: 10px 20px 8px;
+  font-family: "Veneer", Arial, sans;
+  text-transform: uppercase;
+}
+
+@media (min-width: 769px){
+  .types-de-franchises{
+    background-image: url(../images/papizza/foto-tipos.png), url(../images/papizza/description-tile.jpg);
+    background-size: 45% auto, auto auto;
+    background-position: right center, top left;
+  }
+}
+
+.types-de-franchises{
+    position: relative;
+    z-index: 20;
+    padding-bottom: 3.125em;
+    background: url(../images/papizza/foto-tipos.png) no-repeat right top, url(../images/papizza/body-bg-tile.jpg) repeat;
+}
+
+.types-de-franchises-title {
+  font-size: 4.5em;
+  color: #010101;
+  font-family: 'Veneer',Arial, sans;
+  margin: 0px 229.132px 0px 220.538px;
+}
+
+@media (min-width: 767px){
+  .types-franchises-paragraph {
+    width: 32.9428989751%;
+}
+}
+.types-franchises-paragraph{
+  margin-bottom: 1.6428571429em;
+}
+
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width:769px){
+  .types-de-franchises{
+    position: relative;
+    z-index: 20;
+    padding-bottom: 3.125em;
+    background: url(../images/papizza/body-bg-tile.jpg) no-repeat right top, url(../images/papizza/body-bg-tile.jpg) repeat;
+}
+.types-de-franchises-title {
+  font-size:3.5em;
+ 
+}
+.types-franchises-paragraph{
+  margin-bottom: 0.6428571429em;
+   
+}
+}
+
+.types-franchises-btn{
+  font-family: "Veneer", Arial, sans;
+  font-size: 18px;
+  border-style: none;
+  background-color: #010101;
+  color: white;
+  padding: 10px 20px 0;
+  width: 150px;
+  margin-top: 25px;
+}
+.types-franchises-btn{
+  text-decoration: none;
+}
+.types-franchises-btn:hover{
+  color:#ffff;
+  margin-bottom: 25px;
+}
+
+
+/* 
+page commande
+
+*/
+@media (min-width: 769px){
+  .commande .cover-commande {
+    background-image: url(../images/papizza/header-commande.jpg);
+  }
+}
+
+.cover-commande {
+  background: url(../images/papizza/header-mobile-comde\ \(1\).jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+@media (min-width: 769px){
+  .cover-commande {
+    padding-bottom: 41.1420204978%;
+  }
+}
+.cover-commande {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  min-height: 100vh;
+}
+
+.commande-intro{
+  font-size: 0.875em;
+  background: #5d3722;
+  background-image: url(../images/papizza/tile-bg-en-casa.png), linear-gradient(45deg, #5d3722, #6e4024);
+  position: relative;
+  z-index: 10;
+  font-family: "Futura", Arial, sans;
+  text-transform: uppercase;
+  padding: 4.625em 1.6875em;
+}
+
+
+@media (min-width: 769px){
+  .commande-wrapper {
+    max-width: 966px;
+    margin: 0 auto;
+  }
+}
+
+
+.commande-paragraph {
+    color: #f5e0c3;
+}
+
+center {
+  display: block;
+  text-align: -webkit-center;
+}
+.commande-intro-btn{
+  background: #cf2027;
+  text-align: center;
+  font-size: 1.5625em;
+  padding: 0.3125em 0.625em;
+  color: white;
+  font-family: "Veneer", Arial, sans;
+}
+.commande-intro-btn{
+  text-decoration: none;
+  
+}
+.commande-intro-btn:hover{
+  color: #fff;
+}
+.commande-form-container{
+  background: white;
+}
+.commande-formulaire{
+  max-width: 400px;
+}
+
+.formulaire-select {
+  padding: 4px 8px;
+  -webkit-appearance: none;
+  position: relative;
+  border-radius: 0px;
+}
+
+.formulaire-select{
+  border-width: 2px;
+  border-color: #010101;
+  width: 100%;
+  margin-bottom: 1.25em;
+}
+
+select:not(:-internal-list-box) {
+  overflow: visible !important;
+}
+
+select {
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  align-items: center;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  background-color: field;
+  cursor: default;
+  margin: 0em;
+  border-style: solid;
+  border-image: initial;
+}
+
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
 }
