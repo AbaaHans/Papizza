@@ -4,7 +4,17 @@ include 'header.php';
 ?>
 
 <div class="Franchise">
-    <div class="cover-franchise"></div>
+    <div class="cover-franchise">
+        <div class="cover__icon pizza-slice">
+            <div class="pizza-slice__icon">
+                <img src="assets/images/papizza/icon-franchise.png" alt="pizza icon" >
+                <h1 class="cover__title">
+                    <span style="background:black !important;" >Votre franchise</span>
+                    <span style="background:black !important;">idéal pour les pizzas</span>
+                </h1>
+            </div>
+        </div>
+    </div>
     <div class="franchise-intro">
         <div class="franchise-wrapper">
             <div class="franchise-intro-content">

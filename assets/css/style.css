@@ -39,7 +39,7 @@ nav .navbar-nav li a{
     line-height: 1.4;
     justify-content: space-between;
     font-size:20px; 
-    margin: 18px;
+    margin: 10px;
     
 }
 .navbar-nav .active,
@@ -59,9 +59,10 @@ nav .navbar-nav li a{
 }
 
 
+
 @media screen and (max-width:984px) {
     nav .logo{
-        width: 75px;
+        width: 150px;
     }
     nav .connect-left{
         display: block !important;
@@ -133,7 +134,7 @@ nav .connect{
 @media screen and (max-width:652) {
 
     .connect a{
-        font-size: 10px !important;
+        font-size:8px !important;
     }
 }
 
@@ -1034,10 +1035,287 @@ li {
 }
 /* 
 Classe commune */
-.menu-pizza, .local-papizza, .Franchise,.commande {
+.menu-pizza, .local-papizza, .Franchise,.commande, .Nos-pizza {
   padding-top: 100vh;
   overflow-x: hidden;
  }
+ .pizza-slice__icon {
+  width: 265px;
+}
+.pizza-slice__icon {
+  top: calc(calc(7.1614583333vh) + 80px);
+  position: fixed;
+  text-align: center;
+  height: 266px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@media (min-width: 769px){
+  .cover__title {
+    font-size: 1.875em;
+    background: #cf2027;
+    flex-direction: row;
+  }
+}
+@supports (grid-area: auto){
+  .cover__title {
+    font-size: 1.875em;
+    background: #cf2027;
+    flex-direction: row;
+  }
+}
+.cover__title {
+  position: fixed;
+  top: calc(calc(7.1614583333vh) + ( 65px + 166px ) + 80px);
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+}
+
+@media (min-width: 769px){
+  .cover__title span {
+    padding: 10px 0px 0px 12px;
+    margin: 0;
+}
+}
+@supports (grid-area: auto){
+  .cover__title span {
+    padding: 10px 0px 0px 12px;
+    margin: 0;
+}
+}
+
+.cover__title span {
+  padding: 8px 12px;
+  text-align: center;
+  flex-shrink: 0;
+  background: #cf2027;
+}
+
+@media screen and (max-width:769px) {
+  .cover__title {
+    font-size: 1.25em !important;
+    background: transparent !important;
+    flex-direction: column !important;
+  }
+  .cover__title span{
+    margin-bottom: 0.25em !important;
+  }
+}
+
+
+
+/* 
+
+page nos pizza
+*/
+
+@media (min-width: 769px){
+  .Nos-pizza .cover-Nos-pizza {
+    background-image: url(../images/papizza/header-nos-pizza.jpg) !important  ;
+  }
+}
+
+.Nos-pizza .cover-Nos-pizza {
+  background: url(../images/papizza/header-mobile-nos-pizza.jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media (min-width: 769px)
+{
+  .cover-Nos-pizza {
+    padding-bottom: 41.1420204978%;
+}
+
+}
+.cover-Nos-pizza {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    min-height: 100vh;
+}
+
+.nos-pizza-intro
+{font-size: 0.875em;
+background: #f0f0f0 url(../images/papizza/tile-bg-corte.jpg) repeat top left;
+position: relative;
+z-index: 10;
+font-family: "Futura", Arial, sans;
+text-transform: uppercase;
+padding: 4.625em 1.6875em;
+}
+
+@media (min-width: 769px){
+  .nos-pizza-wrapper {
+    max-width: 966px;
+    margin: 0 auto;
+  }
+
+}
+
+
+.nos-pizza-au-gout {
+  font-family: "Futura", Arial, sans;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 20;
+  background: #f0f0f0 url(../images/papizza/body-bg-tile.jpg) repeat top left;
+}
+
+@media (min-width: 769px){
+  .nos-pizza-au-gout .moving {
+    padding-top: 3.125em;
+    background-position: 140% 200px;
+    background-size: 60% auto;
+}
+}
+@media (min-width: 550px){
+  .nos-pizza-au-gout .moving{
+    background-position: 130% -40%;
+    background-size: 65% auto;
+  }
+}
+@media (min-width: 375px){
+  .nos-pizza-au-gout .moving, .nos-pizza-a-la-coupe .moving{
+    background-size: 70% auto;
+  }
+}
+.nos-pizza-au-gout .moving{
+  padding: 12.5em 1.6875em 4.0625em;
+  background: transparent url(../images/papizza/pizza-diavola.png) no-repeat 120% -10%;
+  background-size: 65% auto;
+}
+@media screen and (max-width:769px) {
+  .nos-pizza-au-gout .moving{
+    background-size: 80% auto;
+  }
+  
+}
+@media (min-width: 769px)
+{
+  .nos-pizza-wrapper {
+    max-width: 966px;
+    margin: 0 auto;
+  }
+}
+
+
+@media (min-width: 769px){
+  .nos-pizza-nos-gout-content, .nos-pizza-a-la-coupe-link-content {
+    width: 50%;
+  }
+}
+
+.nos-pizza-nos-gout-content{
+  margin: 0 auto 0 0;
+}
+
+.nos-pizza-nos-gout-title{
+  font-family: "Veneer", Arial, sans;
+  font-size: 5.375em;
+  line-height: 0.8;
+  color: #cf2027;
+  margin-bottom: 0.3488372093em;
+}
+
+.nos-pizza-nos-gout-link{
+  background: #cf2027;
+  text-align: center;
+  font-size: 1.5625em;
+  padding: 0.3125em 0.625em;
+  color: white;
+  font-family: "Veneer", Arial, sans;
+}
+.nos-pizza-nos-gout-link, .nos-pizza-a-la-coupe-link {
+  text-decoration: none;
+}
+
+.nos-pizza-nos-gout-link:hover,
+.nos-pizza-a-la-coupe-link:hover{
+  color:white;
+}
+
+.nos-pizza-a-la-coupe {
+  text-align: right;
+  background: #f0f0f0 url(../images/papizza/tile-bg-corte.jpg) repeat top right;
+  font-family: "Futura", Arial, sans;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 20;
+}
+
+@media (min-width: 769px){
+  .nos-pizza-a-la-coupe .moving{
+    padding-top: 3.125em;
+    background-position: 0% center;
+    background-size: 50% auto;
+  }
+}
+
+@media (min-width: 375px)
+{
+  .nos-pizza-a-la-coupe .moving {
+    background-position: 0% -150px;
+    background-size: 60% auto;
+}
+}
+
+.nos-pizza-a-la-coupe .moving{
+  background:  url(../images/papizza/al-corte.jpg) no-repeat 0% 0%;
+  
+}
+@media screen and (max-width:769px) {
+  .nos-pizza-a-la-coupe .moving{
+    background-size: 90% auto;
+}
+}
+
+.nos-pizza-a-la-coupe .moving {
+  padding: 12.5em 1.6875em 4.0625em;
+}
+
+.nos-pizza-a-la-coupe-title{
+  font-family: "Veneer", Arial, sans;
+    font-size: 5.375em;
+    line-height: 0.8;
+    color: #010101;
+    margin-bottom: 0.3488372093em;
+}
+
+.nos-pizza-a-la-coupe-content{
+    margin: 0 0 0 auto;
+    width: 50%;
+}
+
+.nos-pizza-a-la-coupe-link{
+  background: #010101;
+  text-align: center;
+  font-size: 1.5625em;
+  padding: 0.3125em 0.625em;
+  color: white;
+  font-family: "Veneer", Arial, sans;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 
 Page menu
@@ -1067,7 +1345,7 @@ Page menu
   width: 100%;
   top: 0;
   min-height: 100vh;
-  padding-bottom: 145.8%;
+  /* padding-bottom: 145.8%; */
 }
 
 .pizza-slice__icon {
@@ -2263,4 +2541,84 @@ option {
     white-space: nowrap;
     min-height: 1.2em;
     padding: 0px 2px 1px;
+}
+
+
+/* 
+page contact
+
+*/
+.contact {
+  background-color: #d7d3d3;
+  overflow: hidden;
+}
+.contact-intro{
+  font-size: 0.875em;
+  background: #5d3722;
+  background-image: url(../images/papizza/gracias-tile.jpg);
+  position: relative;
+  z-index: 10;
+  font-family: "Futura", Arial, sans;
+  text-transform: uppercase;
+  padding: 5.625em 1.6875em;
+}
+
+@media (min-width: 769px){
+  .contact-wrapper {
+    max-width: 966px;
+    margin: 0 auto;
+}
+}
+
+.contact-intro-list {
+  justify-content: left;
+  margin-bottom: 35px;
+  display: flex;
+  align-content: center;
+}
+
+@media (min-width: 767px){
+  .contact-intro-list {
+    flex-direction: row;
+}
+}
+.contact-intro-list li{
+  text-align: center !important;
+  font-family: "Veneer", Arial, sans;
+  font-size: 3em;
+  margin-bottom: 0.2083333333em;
+  margin-left: 0;
+  font-weight: bold !important;
+  margin: 4PX;
+    
+}
+
+.contact-intro-list li a{
+  text-decoration: none;
+  color: #010101 !important;
+}
+.contact-paragraph {
+  color: #010101;
+}
+
+p {
+  margin-bottom: 1.5625rem;
+}
+
+
+@media (min-width: 769px){
+  .contact-formulaire {
+    max-width: 750px;
+}
+}
+@supports (grid-area: auto){
+  .contact-formulaire {
+    max-width: 750px;
+}
+}
+
+.contact-formulaire {
+  background: #d7d3d3 !important;
+  margin: 0 auto;
+  width: 100%;
 }

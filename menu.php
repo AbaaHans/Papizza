@@ -5,37 +5,15 @@ include 'header.php';
 
 <div class="menu-pizza">
     <div class="menu-cover">
-        <div class="menu-cover-icon">
-            <div class="pizza-slice__icon">
-                <img src="assets/images/papizza/pizza-icon.png" alt="" >
+        <div class="cover__icon pizza-slice">
+                <div class="pizza-slice__icon">
+                    <img src="assets/images/papizza/pizza-icon-menu.png" alt="pizza icon" >
+                    <h1 class="cover__title">
+                        <span>CREER VOTRE PINSAS A VOTRE  </span>
+                        <span>GOUT EN SEULEMENT 3MIN</span>
+                    </h1>
             </div>
-            <h1 class="cover-title">
-                <span>
-                    Menu
-                </span>
-            </h1>
-            <!-- <div class="cover-line"></div> -->
-            <div class="pilule2">
-                <img src="assets/images/papizza/sello_calidad-digital-HC_2019.png" alt="" >
-            </div>
-            <div class="cover-accueil">
-                <a href="#">
-                    <div class="acceuil-icon">
-                        <img src="assets/images/papizza/pizza-icon.png" alt="" >
-                    </div>
-                    <div class="accueil-text">
-                    FAITES VOTRE COMMANDE
-                    </div>
-                </a>
-            </div>
-            <!-- <ul class="accueil-cover-social-menu social-menu">
-                <a href="#" target="_blank"><li class="social-menu-option pilule"><img src="assets/images/papizza/sello_calidad-digital-HC_2019.png" alt=""></li></a>
-                <a href="#" target="_blank"><li class="social-menu-option pilule"><i class="fa-brands fa-facebook-f"></li></a>
-                <a href="#" target="_blank"><li class="social-menu-option pilule"><i class="fa-brands fa-tiktok"></li></a>
-                <a href="#" target="_blank"><li class="social-menu-option pilule"><i class="fa-brands fa-instagram"></li></a>
-            </ul> -->
         </div>
-        , ce qui permet d'obtenir une pâte plus légère, plus croustillante et plus digeste. Et en ajoutant les bons ingrédients, vous obtenez une combinaison imbattable.
     </div>
     <div class="menu-intro">
         <div class="menu-wrapper">
@@ -45,7 +23,7 @@ include 'header.php';
         </div>
     </div>
     <div class="menu-table ">
-        <div class="menu-table-category menu-pizza-au-goût">
+        <div  id="pizza-au-goût" class="menu-table-category menu-pizza-au-goût">
             <a href="#" name="pizza-au-goût"></a>
             <div class="menu-category-header">
                 <!-- <div class="menu-header-image" style="background-image:url()"></div> -->
@@ -108,7 +86,7 @@ include 'header.php';
                 </div>
             </div>
         </div>
-        <div class="menu-table-category menu-pizza-au-tribune">
+        <div id="pizza-au-pensa" class="menu-table-category menu-pizza-au-tribune">
                 <a href="#" name="pizza-au-tribune"></a>
                 <div class="menu-category-header-pizzas-au-tribune">
                 <div class="menu-cabecera-image-au-tribune" style="background-image: url('assets/images/papizza/storage.png')"></div>

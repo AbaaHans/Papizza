@@ -4,7 +4,17 @@ include 'header.php';
 ?>
 
 <div class="local-papizza">
-    <div class="cover-local"></div>
+    <div class="cover-local">
+        <div class="cover__icon pizza-slice">
+                <div class="pizza-slice__icon">
+                    <img src="assets/images/papizza/locales-icon.png" alt="pizza icon" >
+                    <h1 class="cover__title">
+                        <span>Restaurants papizza</span>
+                        <span>à proximité</span>
+                    </h1>
+            </div>
+        </div>
+    </div>
     <div class="local-intro">
         <div class="local-wrapper">
             <div class="local-content-intro">
@@ -25,11 +35,25 @@ include 'header.php';
                 <li class="local-map-local">
                     <h2 class="local-map-lacal-title">Casablanca</h2>
                     <div class="local-map-province">
-                        <h3 class="local-map-province-title">Papizza Rhandy Mall</h3>
+                        <h3 class="local-map-province-title">Papizza GHANDI </h3>
                         <address class="local-map-province-adress"></address>
                     </div>
                 </li>
                 <li class="local-map-local">
+                    <h2 class="local-map-lacal-title">Casablanca</h2>
+                    <div class="local-map-province">
+                        <h3 class="local-map-province-title">Papizza ANFA </h3>
+                        <address class="local-map-province-adress"></address>
+                    </div>
+                </li>
+                <li class="local-map-local">
+                    <h2 class="local-map-lacal-title">AFRIQUE </h2>
+                    <div class="local-map-province">
+                        <h3 class="local-map-province-title">Ouverture prochaine </h3>
+                        <address class="local-map-province-adress"></address>
+                    </div>
+                </li>
+                <!-- <li class="local-map-local">
                     <h2 class="local-map-lacal-title">Casablanca</h2>
                     <div class="local-map-province">
                         <h3 class="local-map-province-title">Papizza Rhandy Mall</h3>
@@ -49,21 +73,7 @@ include 'header.php';
                         <h3 class="local-map-province-title">Papizza Rhandy Mall</h3>
                         <address class="local-map-province-adress"></address>
                     </div>
-                </li>
-                <li class="local-map-local">
-                    <h2 class="local-map-lacal-title">Casablanca</h2>
-                    <div class="local-map-province">
-                        <h3 class="local-map-province-title">Papizza Rhandy Mall</h3>
-                        <address class="local-map-province-adress"></address>
-                    </div>
-                </li>
-                <li class="local-map-local">
-                    <h2 class="local-map-lacal-title">Casablanca</h2>
-                    <div class="local-map-province">
-                        <h3 class="local-map-province-title">Papizza Rhandy Mall</h3>
-                        <address class="local-map-province-adress"></address>
-                    </div>
-                </li>
+                </li> -->
             </ul>
             <div class="local-map-deco"></div>
         </div>

@@ -31,7 +31,7 @@
                     <ul class="navbar-nav text-uppercase ">
                         
                         <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="#">NOS PIZZA</a>
+                        <a class="nav-link active" aria-current="page" href="nos-pizza.php">NOS PIZZA</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="menu.php">MENU</a>

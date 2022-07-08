@@ -4,7 +4,17 @@ include 'header.php';
 ?>
 
 <div class="commande">
-    <div class="cover-commande"></div>
+    <div class="cover-commande">
+        <div class="cover__icon pizza-slice">
+                <div class="pizza-slice__icon">
+                    <img src="assets/images/papizza/icon.png" alt="pizza icon" >
+                    <h1 class="cover__title">
+                        <span>spécialistes</span>
+                        <span>à domicile</span>
+                    </h1>
+            </div>
+        </div>
+    </div>
     <div class="commande-intro">
         <div class="commande-wrapper">
             <div class="commande-intro-content">
