@@ -34,49 +34,50 @@ include 'header.php';
             <ul class="local-map-locaux">
                 <li class="local-map-local">
                     <h2 class="local-map-lacal-title">Casablanca</h2>
+                    <br>
+                    <br>
                     <div class="local-map-province">
                         <h3 class="local-map-province-title">Papizza GHANDI </h3>
                         <address class="local-map-province-adress"></address>
                     </div>
                 </li>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <li class="local-map-local">
                     <h2 class="local-map-lacal-title">Casablanca</h2>
+                    <br>
+                    <br>
                     <div class="local-map-province">
                         <h3 class="local-map-province-title">Papizza ANFA </h3>
                         <address class="local-map-province-adress"></address>
                     </div>
                 </li>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <li class="local-map-local">
                     <h2 class="local-map-lacal-title">AFRIQUE </h2>
+                    <br>
+                    <br>
                     <div class="local-map-province">
                         <h3 class="local-map-province-title">Ouverture prochaine </h3>
                         <address class="local-map-province-adress"></address>
                     </div>
                 </li>
-                <!-- <li class="local-map-local">
-                    <h2 class="local-map-lacal-title">Casablanca</h2>
-                    <div class="local-map-province">
-                        <h3 class="local-map-province-title">Papizza Rhandy Mall</h3>
-                        <address class="local-map-province-adress"></address>
-                    </div>
-                </li>
-                <li class="local-map-local">
-                    <h2 class="local-map-lacal-title">Casablanca</h2>
-                    <div class="local-map-province">
-                        <h3 class="local-map-province-title">Papizza Rhandy Mall</h3>
-                        <address class="local-map-province-adress"></address>
-                    </div>
-                </li>
-                <li class="local-map-local">
-                    <h2 class="local-map-lacal-title">Casablanca</h2>
-                    <div class="local-map-province">
-                        <h3 class="local-map-province-title">Papizza Rhandy Mall</h3>
-                        <address class="local-map-province-adress"></address>
-                    </div>
-                </li> -->
-            </ul>
-            <div class="local-map-deco"></div>
+            </ul> 
         </div>
+        <div class="local-map-deco"> aba</div>
     </div>
 </div>
 

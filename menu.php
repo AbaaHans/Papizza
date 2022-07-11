@@ -27,10 +27,10 @@ include 'header.php';
             <a href="#" name="pizza-au-goût"></a>
             <div class="menu-category-header">
                 <!-- <div class="menu-header-image" style="background-image:url()"></div> -->
-                <div class="menu-category-texts menu-category-pizza-gouter-texts">
-                    <div class="menu-category-title menu-category-pizza-gouter-title">ÉPINGLES À GOÛTER</div>
+                <div class="menu-category-texts menu-category-pizza-gouter-texts"> 
+                    <div class="menu-category-title menu-category-pizza-gouter-title">PINSAS A GOUTER </div>
                     <div class="menu-category-pizza-gouter-description">
-                        <p>La base de la pina est le résultat d'un processus
+                        <p>La base de la PINSA est le résultat d'un processus
                          minutieux qui commence par un mélange de farines végétales
                          naturelles de soja, de riz et de blé qui
                          fermentent pendant (rien de plus et rien de moins)
@@ -51,16 +51,14 @@ include 'header.php';
                         Tomate
                         </p>
                         <p>
-                        <strong>  2. Sélectionnez tous les ingrédients :</strong>
+                        <strong>  2.CHOISISSEZ VOS INGRÉDIENTS :</strong>
                         </p>
                         <p>
                         Poulet rôti
                         <br>
                         Ananas   
                         <br>
-                        Piment rouge
-                        <br>
-                        lard fumé 
+                       <span style="color:#cf2027">BACON FUMÉ </span>
                         <br>
                         Champignons 
                         <br>
@@ -72,15 +70,15 @@ include 'header.php';
                         <br>
                         Thon
                         <br>
-                        JAMBON YORK
+                        <span style="color:#cf2027"> JAMBON YORK </span>
                         </p>
-                        <p><strong>3. Donnez-lui une touche :</strong></p>
+                        <p><strong>3.APPUYEZ DESSUS :</strong></p>
                         <p>
                         ORIGAN
                         <br>
                         HUILE ÉPICÉE    
                         <br>
-                        SALSA BBQ (+0,5dhs)
+                        SAUCE BBQ 
                         </p>
                     </div>
                 </div>
@@ -91,10 +89,10 @@ include 'header.php';
                 <div class="menu-category-header-pizzas-au-tribune">
                 <div class="menu-cabecera-image-au-tribune" style="background-image: url('assets/images/papizza/storage.png')"></div>
                 <div class="menu-category-texts menu-category-pizzas-au-tribune-texts">
-                    <div class="menu-category-pizzas-au-tribune-title">ÉPINGLES</div>
+                    <div class="menu-category-pizzas-au-tribune-title">PINSAS</div>
                     <div class="menu-category-pizzas-au-tribune-description">
-                        <p>Pinsa artisanale légère, croquante et digestive, avec plus de 72 heures de fermentation.</p>
-                        <table border=0; width="90%"  cellspacing="5" cellpadding="5">
+                        <p>PINSA ARTISANALE LÉGÈRE, CROUSTILLANTE ET DIGESTIVE, AVEC PLUS DE 72 HEURES DE FERMENTATION.</p>
+                        <!-- <table border=0; width="90%"  cellspacing="5" cellpadding="5">
                             <tbody>
                                 <tr>
                                     <td>
@@ -116,7 +114,7 @@ include 'header.php';
                                     </td>
                                 </tr>
                             </tbody>
-                        </table>
+                        </table> -->
                     </div>
                 </div>
             </div>
@@ -127,21 +125,21 @@ include 'header.php';
             <div class="menu-category-header-pâte-épaisse">
                 <div class="menu-cabecera-image-pâte-épaisse" style="background-image: url('https://www.papizza.es/storage')"></div>
                 <div class="menu-category-pâte-épaisse-texts">
-                    <div class="menu-category-pâte-épaisse-title">ÉPINGLES</div>
+                    <div class="menu-category-pâte-épaisse-title">PINSAS</div>
                 </div>
             </div>
             <ul class="menu-produits-pâte-épaisse menu-produits">
                 <li class="menu-produits-pâte-épaisse produits-pâte-épaisse">
                     <div class="menu-produit-title">Marguerite</div>
-                    <div class="menu-produit-description">Base de notre savoureuse sauce tomate, prosciutto, mozzarella râpée, huile d'olive vierge et une touche d'origan.</div>
+                    <div class="menu-produit-description">BASE DE NOTRE SAVOUREUSE SAUCE TOMATE, PROSCIUTTO, MOZZARELLA RÂPÉE, HUILE D’OLIVE VIERGE ET UNE TOUCHE D’ORIGAN.</div>
                 </li>
                 <li class="menu-produits-pâte-épaisse produits-pâte-épaisse">
-                    <div class="menu-produit-title">Prosciutto</div>
-                    <div class="menu-produit-description">Base de notre savoureuse sauce tomate, mozzarella râpée, huile d'olive vierge et une touche d'origan.</div>
+                    <div class="menu-produit-title">PROSCIUTTO</div>
+                    <div class="menu-produit-description">BASE DE NOTRE SAVOUREUSE SAUCE TOMATE, MOZZARELLA RÂPÉE, HUILE D’OLIVE VIERGE ET UNE TOUCHE D’ORIGAN.</div>
                 </li>
                 <li class="menu-produits-pâte-épaisse produits-pâte-épaisse">
                     <div class="menu-produit-title">CARNISSIMA</div>
-                    <div class="menu-produit-description">AVEC SAUCE TOMATE, MOZZARELLA, HUILE D'OLIVE, ORIGAN, LANIÈRES DE POULET RÔTIES, JAMBON CUIT, CHAMPIGNONS LAMINÉS, SAUCE BARBECUE, BŒUF HACHÉ.</div>
+                    <div class="menu-produit-description">AVEC SAUCE TOMATE, MOZZARELLA, HUILE D’OLIVE, ORIGAN, LANIÈRES DE POULET RÔTI, JAMBON CUIT, CHAMPIGNON ROULÉ, SAUCE BARBECUE, VIANDE HACHÉE.</div>
                 </li>
                 <li class="menu-produits-pâte-épaisse produits-pâte-épaisse">
                     <div class="menu-produit-title">DIAVOLA</div>

@@ -32,8 +32,8 @@ include 'header.php';
             </div>
         </div>
     </div>
-    <div class="franchise-parent-wrapper row">
-        <div class="franchise-information col-md-6">
+    <div class="franchise-parent-wrapper ">
+        <div class="franchise-information ">
                 <h2 class="franchise-information-title">Pourquoi papizza est votre franchise idéale</h2>
                 <p class="franchise-information-paragraph">
                 CETTE FRANCHISE THÉMATIQUE, 
@@ -56,7 +56,7 @@ include 'header.php';
                       D'INVESTIR EN VOUS, DANS VOTRE AVENIR.</strong> 
                 </p>
         </div>
-        <div class="franchise-formulaire col-md-6">
+        <div class="franchise-formulaire ">
             <form class="formulaire" action method="post">
                     <div class="formulaire-form">Demander des informations sur la franchise</div>
                     
