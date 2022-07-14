@@ -271,11 +271,24 @@ html {
 {
   width: 100px !important;
 }
-.content-area{
-  display: grid;
-  grid-template-columns: minmax(10px, 500px) 4.831625183% 24.8901903367% 17.9355783309% 15.1537335286% [end] 24.9633967789%;
-  grid-template-rows: repeat(6, minmax(10px, 100px)); 
+@media (min-width: 769px){
+  .content-area
+  {
+     display: grid;
+     grid-template-columns: minmax(10px, 500px) 4.831625183% 24.8901903367% 17.9355783309% 15.1537335286% [end] 24.9633967789%;
+     grid-template-rows: repeat(6, minmax(10px, 100px));
+ }
 }
+@supports (grid-area: auto){
+  .content-area
+ {
+    display: grid;
+    grid-template-columns: minmax(10px, 500px) 4.831625183% 24.8901903367% 17.9355783309% 15.1537335286% [end] 24.9633967789%;
+    grid-template-rows: repeat(6, minmax(10px, 100px));
+}
+}
+
+
 .content-area{
   position: relative;
   z-index: 10;
@@ -729,16 +742,7 @@ p {
   justify-content: center;
   text-align: center;
 }
-@media (min-width: 769px)
-{
-  .content-menu-posta {
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto;
-    padding: 6em 0;
-    width: 81.8448023426%;
-    margin: 0 auto;
-  }
-}
+
 @supports (grid-area: auto)
 {
   .content-menu-posta {
@@ -762,7 +766,7 @@ ol, ul {
 }
 @media (min-width: 769px)
 {
-  .ccontent-menu-marker {
+  .content-menu-marker {
     display: grid;
     grid-template-columns: 85.71428571% 1fr 19px;
     grid-template-rows: auto;
@@ -981,18 +985,29 @@ figcaption{
   .content-franchise .card-title {
     color: #f0f0f0;
     font-size: 76px;
- 
+    font-family: "Veneer", Arial, sans;
+}
+}
+
+@media screen and (max-width: 769px)
+{
+  .content-franchise .card-title {
+    color: #f0f0f0;
+    font-size: 76px;
     font-family: "Veneer", Arial, sans;
 }
 
 }
-
+.h5, h5 {
+  font-size: 2.25rem;
+}
 .content-franchise .card-text{
   margin-bottom: 2rem;
   font-size: 30px !important;
   color: #010101;
   font-family: "Veneer", Arial, sans;
 }
+
 
 .btn-franchise{
   display: inline-block;
