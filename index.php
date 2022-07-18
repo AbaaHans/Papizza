@@ -100,7 +100,7 @@ include 'header.php';
       <div class="content-area-corta-marker">
 
          <div class="content-area-corta-subtile content-area-corta-gouter ">
-              <a href="#">Au Tribunal</a>
+              <a href="menu.php #pizza-au-pensa">Pensa</a>
           </div>
           <div class="content-area-corta-line"></div>
           <div class="content-area-corta_plus">
@@ -113,7 +113,7 @@ include 'header.php';
     <div class="content-area-1-gusto">
         <div class="content-area-1-gusto-marker">
           <div class="content-area-1-gusto-subtitle">
-            <a href="#">Goûter</a>
+            <a href="menu.php #pizza-au-goût">Goûter</a>
           </div>
           <div class="content-area-1-gusta-line"></div>
           <div class="content-area-1-gusta_plus">
@@ -132,9 +132,9 @@ include 'header.php';
   </div>
 
 <div class="content-menu-marker">
-  <a href="#">
+  <a href="menu.php">
     <div class="content-menu-subtitle">
-      consulter la lettre complète
+      consulter le menu
     </div>
   </a>
   <div class="content-menu-line"></div>
@@ -142,7 +142,7 @@ include 'header.php';
     <img src="assets/images/pappizza/plus.png" alt="">
   </div>
 </div>
-  <ul class="content-menu-posta   ">
+  <ul class="content-menu-posta ">
 
      <li class="content-menu-posta-1">
      <figure class="content-menu__image-container">
@@ -189,7 +189,7 @@ include 'header.php';
             <h5 class="card-title">OUVREZ VOTRE FRANCHISE</h5>
             <p class="card-text">VOUS VOULEZ OUVRIR VOTRE PROPRE RESTAURANT ? la papizza est l'option que vous recherchiez</p>
             <div class="btn-fran">
-              <a href="#" class="btn-franchise">Je suis intéressé</a>
+              <a href="franchise.php" class="btn-franchise">Je suis intéressé</a>
           </div>
           </div>
          

@@ -38,12 +38,12 @@ include 'header.php';
                     <br>
                     <div class="local-map-province">
                         <h3 class="local-map-province-title">Papizza GHANDI </h3>
-                        <address class="local-map-province-adress"></address>
+                        <address class="local-map-province-adress">
+                        <p>Bd GHANDI 20000</p>
+            <p><i class="fa-solid fa-phone"></i> 05222-50056</p>
+                        </address>
                     </div>
                 </li>
-                <br>
-                <br>
-                <br>
                 <br>
                 <br>
                 <br>

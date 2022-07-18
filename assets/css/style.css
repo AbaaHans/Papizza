@@ -733,14 +733,20 @@ p {
 }
 }
 .content-menu-posta{
-  display: flex;
-  align-items: center;
-  color: #545253;
-  font-size: 1.375em;
-  padding-bottom: 1.5909090909em;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+}
+@media (min-width: 769px)
+{
+  .content-menu-posta {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    padding: 6em 0;
+    width: 81.8448023426%;
+    margin: 0 auto;
+  
+  }
 }
 
 @supports (grid-area: auto)
@@ -753,13 +759,20 @@ p {
     margin: 0 auto;
   
   }
-  .content-menu-posta{
-    display: grid;
-  }
+
 }
 ol, ul {
   list-style: none;
 }
+
+@supports (grid-area: auto)
+{
+  .content-menu-posta {
+    display: grid;
+    grid-gap: 20px 0;
+  }
+}
+
 
 .content-menu-marker{
   margin-top: -40px;
@@ -1553,6 +1566,17 @@ Page menu
   z-index: 20;
 }
 
+@media screen and (max-width:769px) {
+  .menu-table{
+    display: block;
+  }
+}
+
+.menu-pizza-au-goût{
+  padding-top: 3.125em;
+  background: url(../images/papizza/pinsa.png) no-repeat right -130px, url(../images/papizza/body-bg-tile.jpg) repeat left top;
+  background-size: 250px auto;
+}
 
 
 @media (min-width: 769px){
@@ -1582,7 +1606,7 @@ Page menu
   }
 }
 
-@media (min-width: 769px){
+@media (min-width: 933px){
   .menu-pizza-au-goût {
     padding-top: 0;
     background: url(../images/papizza/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
@@ -1590,12 +1614,24 @@ Page menu
 
 }
 @supports (grid-area: auto){
-  .menu-pizza-au-goût {    padding-top: 0;
+  .menu-pizza-au-goût {
+     padding-top: 0;
     background: url(../images/papizza/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
+    
   }
 }
 
 
+
+@media screen and (max-width:769px) {
+  .menu-pizza-au-goût {
+    padding-top: 3.125em !important;
+    background: url(../images/papizza/pinsa.png) no-repeat right -130px, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
+    background-size: 250px auto !important;
+
+}
+
+}
 .menu-category-pizza-gouter-texts{
   padding: 4.75em 2.3125em 3.125em 2.3125em;
   width: auto;
@@ -1632,9 +1668,13 @@ Page menu
 strong {
   font-weight: bold;
 }
-.menu-category-pizza-gouter-description p{
+.menu-category-pizza-gouter-description{
   font-family: "Futura", Arial, sans;
+  font-size: 0.875em;
+  text-transform: uppercase;
 }
+
+
 
 @media (min-width: 769px){
   .menu-pizza-au-tribune {
@@ -1657,7 +1697,6 @@ strong {
     background-size: contain;
     display: -webkit-box;
     display: -webkit-flex;
-    /* display: -ms-flexbox; */
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -1676,6 +1715,11 @@ strong {
     flex-direction: row-reverse;
 }
 
+}
+@media screen and (max-width:769px) {
+  .menu-category-header-pizzas-au-tribune{
+    display: block;
+  }
 }
 
 @media (min-width: 769px){
@@ -1713,7 +1757,7 @@ strong {
 }
 
 }
-.menu-category-pizzas-au-tribune-descriptio, .menu-category-pizza-gouter-description{
+.menu-category-pizzas-au-tribune-description, .menu-category-pizza-gouter-description{
   font-size: 3.375em;
   line-height: 1;
   font-size: 0.875em;
@@ -1724,6 +1768,17 @@ strong {
   font-family: "Veneer", Arial, sans;
   color: #010101;
 }
+@media screen and (max-width:769px) {
+  .menu-category-pizzas-au-tribune-title{
+    width: auto;
+  }
+}
+@media screen and (max-width:769px) {
+  .menu-category-pizzas-au-tribune-description{
+    width: auto;
+  }
+}
+
 
 
 @media (min-width: 769px){
@@ -1789,6 +1844,9 @@ strong {
 }
 }
 
+
+
+
 .menu-pâte-fine,.produits-pâte-fine-title .produits-pâte-fine-description{
   color: #4d0205;
     padding-bottom: 2.3125em;
@@ -1803,6 +1861,8 @@ strong {
     grid-area: complementos;
 }
 }
+
+
 
 .menu-starters{
   background: url(../images/papizza/complementos-icons.jpg) no-repeat right -120px, url(../images/papizza/complementos-tile.jpg) repeat left top;
@@ -2488,6 +2548,24 @@ page commande
 
 .commande-paragraph {
     color: #f5e0c3;
+}
+
+.commande-adress{
+  padding: 50px;
+  background: white ;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: row;
+}
+.commande-adress .adress{
+  margin: 60px;
+}
+.commande-adress .adress-fbk{
+  font-size: 70px;
+  margin: 50px;
 }
 
 center {

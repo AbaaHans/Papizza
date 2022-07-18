@@ -20,15 +20,15 @@ include 'header.php';
             <div class="commande-intro-content">
                 <p class="commande-paragraph">
                    <center>
-                        <a href="assets/doc/carta-a-domicilio.pdf" target="_blank" class="commande-intro-btn">
-                        VÉRIFIEZ LA LETTRE D'ACCUEIL
+                        <a href="assets/doc/menu 29x14.pdf" target="_blank" class="commande-intro-btn">
+                        CONSULTEZ LE MENU
                         </a>
                    </center> 
                 </p>
             </div>
         </div>
     </div>
-    <a name="form"></a>
+    <!-- <a name="form"></a>
     <div class="commande-form-container">
         <form class="formulaire commande-formulaire" action method="post">
             <fieldset>
@@ -46,8 +46,19 @@ include 'header.php';
                <input type="submit" class="cmd-pizza" value="CHERCHER">
             </fieldset>
         </form>
-    </div>
-    
+    </div> -->
+    <div class="commande-adress">
+            <div class="adress">
+            <h1>Casablanca</h1>
+            <p><i class="fa-regular fa-location-dot"></i> Papizza GHANDI</p>
+            <p>Bd GHANDI 20000</p>
+            <p><i class="fa-solid fa-phone"></i> 05222-50056</p>
+        </div>
+        <div class="adress-fbk">
+        <a href="https://web.facebook.com/PapizzaMorocco" target="_blank" ><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+
+    </div>    
 </div>
 
 

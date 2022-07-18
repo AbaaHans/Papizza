@@ -2,9 +2,9 @@
 <footer class="footer">
     <div class="footer-legal-social">
         <ul class="footer-social">
-            <li class="social-option"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li class="social-option"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
-            <li class="social-option"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="social-option"><a href="https://web.facebook.com/PapizzaMorocco" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="social-option"><a href="https://www.tiktok.com/@papizza8" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li class="social-option"><a href="https://www.instagram.com/papizza_maroc/?hl=fr" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
 
            
             <ul class="footer-legal">

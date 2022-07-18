@@ -8,9 +8,14 @@ include 'header.php';
         <div class="cover__icon pizza-slice">
                 <div class="pizza-slice__icon">
                     <img src="assets/images/papizza/pizza-icon-menu.png" alt="pizza icon" >
-                    <h1 class="cover__title">
+                    <!-- <h1 class="cover__title">
                         <span>CREER VOTRE PINSAS A VOTRE  </span>
-                        <span>GOUT EN SEULEMENT 3MIN</span>
+                        
+                    </h1>
+                    <br>
+                    <br> -->
+                    <h1 class="cover__title">
+                        <span>MENU DE PIZZAS</span>
                     </h1>
             </div>
         </div>
@@ -92,29 +97,35 @@ include 'header.php';
                     <div class="menu-category-pizzas-au-tribune-title">PINSAS</div>
                     <div class="menu-category-pizzas-au-tribune-description">
                         <p>PINSA ARTISANALE LÉGÈRE, CROUSTILLANTE ET DIGESTIVE, AVEC PLUS DE 72 HEURES DE FERMENTATION.</p>
-                        <!-- <table border=0; width="90%"  cellspacing="5" cellpadding="5">
+                        <table border=0; width="90%"  cellspacing="5" cellpadding="5">
                             <tbody>
                                 <tr>
+                                <td> <strong style="color:red"> Classique </strong></td>
+                                    <td>  <strong  style="color:red"> Premium</strong></td>
+                                </tr>
+                                <tr>
+                                 <br>
                                     <td>
-                                        Médian:
-                                        <strong> 8,90dh</strong>
+                                    Moyenne (25x30 cm) 
+                                        <strong style="color:green"> 89Dhs</strong>
                                     </td>
                                     <td>
-                                        Prime moyenne:
-                                        <strong> 11,89dh</strong>
+                                    moyenne (25x30 cm):
+                                        <strong style="color:green">119Dhs</strong>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Familier:
-                                        <strong> 14,90dh</strong>
+                        
+                                    <td>Familiale (30x40 cm):
+                                        <strong style="color:green">19Dhs</strong>
                                     </td>
                                     <td>
-                                        Prime familiale:
-                                        <strong>17,90dh</strong>
+                                    Familiale (30x40 cm) :
+                                        <strong style="color:green">179Dhs</strong>
                                     </td>
                                 </tr>
                             </tbody>
-                        </table> -->
+                        </table>
                     </div>
                 </div>
             </div>
@@ -173,10 +184,12 @@ include 'header.php';
             <a href="#" name="pâte-fine"></a>
             <div class="menu-category-header-pâte-fine">
                 <div class="menu-category-pâte-fine-texts">
-                    <div class="menu-category-pâte-fine-title">PINCES PREMIUM</div>
+                    <div class="menu-category-pâte-fine-title">PINSAS PREMIUM</div>
                     
                 </div>
-                
+
+                <hr>
+        
                 <ul class="menu-produits-pâte-fine menu-produits">
                     <li class=" produits-pâte-fine">
                         <div class=" produits-pâte-fine-title">César & Parmesan</div>
@@ -202,6 +215,7 @@ include 'header.php';
             <div class="menu-category-header-starters">
                 <div class="menu-category-starters-texts">
                     <div class="menu-category-starters-title">Entrées</div>
+                    <p> <h2>Entrées ou Desserts à partir de <strong style="color:green">32 Dhs</strong> </h2> </p>
                     <div class="menu-category-starters-descritpion">
                         <p><strong> EMPANADILLA DE LONGE</strong> : AVEC UNE TOUCHE LÉGÈREMENT ÉPICÉE.</p>
                         <p><strong> CAPRESE EMPANADILLA </strong> : AU FROMAGE MOZZARELLA AVEC UNE TOUCHE DE ROQUETTE.</p>
@@ -227,8 +241,34 @@ include 'header.php';
                         <p>Finir par un bon dessert est essentiel. Consultez nos propositions et clôturez votre dîner avec une saveur incomparable comme nos crêpes, glaces ou coupes de mousse.</p>
                        
                     </div>
+                     <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                            <img src="assets/images/papizza/PHOTO_page-0001.jpg" class="card-img-top" alt="...">
+                            
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                            <img src="assets/images/papizza/PHOTO_page-0002.jpg" class="card-img-top" alt="...">
+                            
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                            <img src="assets/images/papizza/PHOTO_page-0003.jpg" class="card-img-top" alt="...">
+                            
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                            <img src="assets/images/papizza/PHOTO_page-0004.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
             <strong>
         </div>
     </div>
