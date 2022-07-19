@@ -265,7 +265,96 @@ html {
 
 
 /* page index*/
+.popup {
+  position: fixed;
+  background: rgba(1, 1, 1, 0.6);
+  top: 20px;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.pupop-content{
+background: white;
+position: relative;
+padding: 0.625em;
+font-weight: normal;
+font-family: "Futura", Arial, sans;
+background: #5d3722;
+background-image: url(../images/papizza/tile-bg-en-casa.png), linear-gradient(45deg, #5d3722, #6e4024);
+color: #f6e3a5;
+}
 
+.pupop-content a {
+  color: white;
+  display: block;
+  text-align: center;
+  width: 100%;
+  background: #cf2027;
+  font-family: "Veneer", Arial, sans;
+  font-size: 1.5625em;
+  line-height: 0;
+  text-decoration: none;
+}
+
+@media screen and (max-width:769px) {
+  .popup{
+    top:0;
+  }
+  .pupop-content a img {
+    width:300px; 
+  }
+}
+
+.pupop-content a:hover {
+  color: #fff;
+}
+
+a img {
+  border: none;
+}
+
+.pupop-content .butn {
+  transform: translateY(-15px);
+  font-size: 1.625em;
+}
+
+.pupup-x {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(30%, -30%);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: #f6e3a5;
+  border: 2px solid #f6e3a5;
+  background: #010101;
+  font-size: 1.375em;
+  font-weight: bold;
+}
+button {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  margin: 0em;
+  padding: 1px 6px;
+ 
+}
 .carousel-control-next >.carousel-control-next-icon,
 .carousel-control-prev> .carousel-control-prev-icon
 {

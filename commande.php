@@ -55,7 +55,7 @@ include 'header.php';
             <p><i class="fa-solid fa-phone"></i> 05222-50056</p>
         </div>
         <div class="adress-fbk">
-        <a href="https://web.facebook.com/PapizzaMorocco" target="_blank" ><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://web.facebook.com/PapizzaMorocco" target="_blank" ><i class="fa-brands fa-facebook-f " style="color:blue"></i></a>
         </div>
 
     </div>    

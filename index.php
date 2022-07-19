@@ -3,6 +3,19 @@ $page = "Accueil";
 include 'header.php';
 ?>
 
+<div class="popup">
+    <div class="pupop-content">
+      <div>
+          <a href="menu.php">
+              <img src="assets/images/papizza/pinsa-popUp_small.jpg" width="350px" alt="papizza.ma">
+          </a>
+          <a class="butn" href="commande.php">DÉCOUVREZ LE</a>
+      </div>
+      <div class="btns">
+        <button type="button" id="close" class="pupup-x">X</button>
+      </div>
+    </div>
+</div>
 <div class="banner ">
 <div id="carouselExampleCaptions " class="carousel  slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -83,6 +96,7 @@ include 'header.php';
   </button>
 </div>
 </div>
+
 
 
 <div class="content-area">
