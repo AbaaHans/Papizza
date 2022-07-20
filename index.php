@@ -1,4 +1,12 @@
 <?php
+
+    // setcookie('accepte-cookie', true, time() + 365*24*3600, '/', null, false, true);
+   
+    // if ($_SERVER(['HTTP_REFERER']) AND !empty($_SERVER['HTTP_REFERER'])){
+    //   header('Location: '.$_SERVER['HTTP_REFERER']);
+    // }else{
+    //   header('Location:https://www.papizza.ma/');
+    // }
 $page = "Accueil";
 include 'header.php';
 ?>
@@ -7,7 +15,7 @@ include 'header.php';
     <div class="pupop-content">
       <div>
           <a href="menu.php">
-              <img src="assets/images/papizza/pinsa-popUp_small.jpg" width="350px" alt="papizza.ma">
+              <img src="assets/images/papizza/pinsa-popUp_small.jpg"  alt="papizza.ma">
           </a>
           <a class="butn" href="commande.php">DÉCOUVREZ LE</a>
       </div>
@@ -16,6 +24,7 @@ include 'header.php';
       </div>
     </div>
 </div>
+
 <div class="banner ">
 <div id="carouselExampleCaptions " class="carousel  slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -114,7 +123,7 @@ include 'header.php';
       <div class="content-area-corta-marker">
 
          <div class="content-area-corta-subtile content-area-corta-gouter ">
-              <a href="menu.php #pizza-au-pensa">Pensa</a>
+              <a href="menu.php#pizza-au-pensa">Pensas</a>
           </div>
           <div class="content-area-corta-line"></div>
           <div class="content-area-corta_plus">
@@ -127,7 +136,7 @@ include 'header.php';
     <div class="content-area-1-gusto">
         <div class="content-area-1-gusto-marker">
           <div class="content-area-1-gusto-subtitle">
-            <a href="menu.php #pizza-au-goût">Goûter</a>
+            <a href="menu.php#pizza-au-goût">Goûter</a>
           </div>
           <div class="content-area-1-gusta-line"></div>
           <div class="content-area-1-gusta_plus">
@@ -156,7 +165,37 @@ include 'header.php';
     <img src="assets/images/pappizza/plus.png" alt="">
   </div>
 </div>
-  <ul class="content-menu-posta ">
+    
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-md">
+              <img src="assets/images/papizza/home/base.png" alt="papizza.ma">
+              <figcaption>choisissez votre fond de teint</figcaption>
+
+          </div>
+          <div class="col-md">
+            <img src="assets/images/papizza/home/ingredientes.png" alt="papizza.ma">
+            <figcaption>choisissez vos ingrédients</figcaption>
+          
+          </div>
+          <div class="col-md">
+            <img src="assets/images/papizza/home/salsa.png" alt="papizza.ma">
+            <figcaption>choisissez votre sauce</figcaption>
+          </figure>
+          </div>
+          <div class="col-md">
+            <img src="assets/images/papizza/home/horno.png" alt="papizza.ma">
+            <figcaption>3 minutes au four</figcaption>
+       
+          </div>
+          <div class="col-md">
+            <img src="assets/images/papizza/home/pizza.png" alt="papizza.ma">
+            <figcaption>intelligent!</figcaption>
+          </div>
+        </div>
+      </div>
+
+  <!-- <ul class="content-menu-posta ">
 
      <li class="content-menu-posta-1">
      <figure class="content-menu__image-container">
@@ -190,7 +229,7 @@ include 'header.php';
           <figcaption>intelligent!</figcaption>
         </figure>
         </li>
-</ul>
+</ul> -->
 </div>
 <div class="content-franchise">
   <div class="card">
@@ -212,8 +251,25 @@ include 'header.php';
     </div>
   </div>
 
+ 
 
+<?php
+    if (isset($_COOKIE['accepte-cookie'])) {
+        $showcookie = false;
+    }else{
+        $showcookie = true;
+      }
+?>
 
+<?php
+    if ($showcookie) {?>
+      <div class="cookie">
+          <span class="cookie-text">
+                Nous utilisons des Cookies pour vous offrir une meilleure expérience de navigation. Si vous continuez à naviguer, nous considérons que vous acceptez son utilisation.
+          </span>
+          <a href="accepte_cookie.php" >accepter</a>
+     </div>
+<?php   }?>
 
 <?php
 include 'footer.php';

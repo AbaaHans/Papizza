@@ -277,7 +277,7 @@ html {
 .popup {
   position: fixed;
   background: rgba(1, 1, 1, 0.6);
-  top: 20px;
+  top:32px;
   left: 0;
   width: 100%;
   z-index: 999;
@@ -315,7 +315,7 @@ color: #f6e3a5;
     top:0;
   }
   .pupop-content a img {
-    width:300px; 
+    width:330px !important; 
   }
 }
 
@@ -364,6 +364,47 @@ button {
   padding: 1px 6px;
  
 }
+
+.cookie{
+  position: fixed;
+  background: rgba(1, 1, 1, 0.6);
+  font-family: "Futura", Arial, sans;
+  color: white;
+  padding:5px;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and(max-width:769px) {
+  .cookie{
+    padding: 15px;
+  }
+}
+.cookie span {
+  margin-right: 10px;
+}
+.cookie a {
+  background-color: #cf2027;
+  color: white;
+  font-family: "Veneer", Arial, sans;
+  border: none;
+  padding: 9px 10px;
+    padding-bottom: 9px;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+.cookie a:hover {
+  background-color: #cf2027;
+  color: white;
+ }
+
+
 .carousel-control-next >.carousel-control-next-icon,
 .carousel-control-prev> .carousel-control-prev-icon
 {
@@ -482,6 +523,40 @@ button {
   line-height: 1.1;
   font-size: 60px !important;
   font-family: "Veneer", Arial, sans;
+}
+
+@media screen and (max-width:769px){
+  .marketing {
+    padding: 2.1875em 1.1875em;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    color: #545253;
+    font-size: 1.375em;
+    padding-bottom: 1.5909090909em;
+  }
+  .marketing .row .col-md{
+    display: block;
+    width: 100%;
+    flex-grow: 0;
+    text-align: center;
+    min-height: 120px;
+  }
+}
+
+@supports (grid-area: auto)
+{
+  .marketing .row  .col-md{
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    width: 120px;
+    margin-bottom: 1em;
+}
+
 }
 
 
@@ -856,7 +931,6 @@ p {
 .content-menu-posta{
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
 }
 @media (min-width: 769px)
 {
