@@ -8,16 +8,18 @@ include 'header.php';
         <div class="cover__icon pizza-slice">
                 <div class="pizza-slice__icon">
                     <img src="assets/images/papizza/pizza-icon-menu.png" alt="pizza icon" >
-                    <!-- <h1 class="cover__title">
-                        <span>CREER VOTRE PINSAS A VOTRE  </span>
-                        
-                    </h1>
-                    <br>
-                    <br> -->
                     <h1 class="cover__title">
                         <span>MENU DE PIZZAS</span>
                     </h1>
             </div>
+        </div>
+        <div class="cover-commandez">
+            <a href="commande.php">
+                <div class="at-home-icon">
+                    <img src="assets/images/papizza/pizza-icon.png" alt="" srcset="">
+                </div>
+                <div class="at-home-text">COMMANDER</div>
+            </a>
         </div>
     </div>
     <div class="menu-intro">
@@ -215,7 +217,7 @@ include 'header.php';
             <div class="menu-category-header-starters">
                 <div class="menu-category-starters-texts">
                     <div class="menu-category-starters-title">Entrées</div>
-                    <p> <h2>Entrées ou Desserts à partir de <strong style="color:green">32 Dhs</strong> </h2> </p>
+                    <p> <h2> (Entrées ou Desserts à partir de <strong style="color:green">32 Dhs</strong>)</h2> </p>
                     <div class="menu-category-starters-descritpion">
                         <p><strong> EMPANADILLA DE LONGE</strong> : AVEC UNE TOUCHE LÉGÈREMENT ÉPICÉE.</p>
                         <p><strong> CAPRESE EMPANADILLA </strong> : AU FROMAGE MOZZARELLA AVEC UNE TOUCHE DE ROQUETTE.</p>

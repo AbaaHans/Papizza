@@ -16,7 +16,17 @@ include 'header.php';
                 </h1>
             </div>
         </div>
+        <div class="cover-commandez">
+            <a href="commande.php">
+                <div class="at-home-icon">
+                    <img src="assets/images/papizza/pizza-icon.png" alt="" srcset="">
+                </div>
+                <div class="at-home-text">COMMANDER</div>
+            </a>
+        </div>
+
     </div>
+    
     <div class="nos-pizza-intro">
         <div class="nos-pizza-wrapper">
             <div class="nos-pizza-intro-content">
