@@ -7,7 +7,7 @@ include 'header.php';
     <div class="cover-local">
         <div class="cover__icon pizza-slice">
                 <div class="pizza-slice__icon">
-                    <img src="assets/images/papizza/locales-icon.png" alt="pizza icon" >
+                    <img src="assets/images/papizza/Local/locales-icon.png" alt="pizza icon" >
                     <h1 class="cover__title">
                         <span>Restaurants papizza</span>
                         <span>à proximité</span>

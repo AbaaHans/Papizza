@@ -9,7 +9,7 @@ include 'header.php';
     <div class="cover-Nos-pizza">
         <div class="cover__icon pizza-slice">
             <div class="pizza-slice__icon">
-                <img src="assets/images/papizza/pizza-icon-nos-pizza.png" alt="pizza icon" >
+                <img src="assets/images/papizza/nospizza/pizza-icon-nos-pizza.png" alt="pizza icon" >
                 <h1 class="cover__title">
                     <span>spécialistes</span>
                     <span>dans Pizza Artisanale</span>
@@ -56,8 +56,8 @@ include 'header.php';
             <div class="nos-pizza-wrapper">
                <div class="nos-pizza-a-la-coupe-content">
                     <div class="nos-pizza-a-la-coupe-title">PIZZA COUPEE</div>
-                        <p> NOTRE PASSION N’EST PAS TRIANGULAIRE, MAIS CARRÉE. LA <strong>PERFECTION GÉOMÉTRIQUE DE LA PAPIZZA AL CORTE</strong> (AL TAGLIO, COMME ON DIT EN ITALIE) EST SYNONYME D’EXCELLENCE GASTRONOMIQUE. LES INGRÉDIENTS, 100% NATURELS, SONT CUITS DANS DE VASTES ASSIETTES POUR SATISFAIRE VOTRE CAPRICE EN UN TOURNEMAIN. IL VOUS SUFFIT DE CHOISIR LES SAVEURS QUE VOUS VOULEZ GOÛTER !</p> 
-                        <p> IL<strong> VOUS ATTENDRA ÉGALEMENT DE DÉLICIEUSES ET ORIGINALES PAPIZZAS AL CORTE.</strong> ESSAYEZ TOUTES LES TENTATIONS CARRÉES QUE VOUS VOULEZ. LES VARIÉTÉS SONT NOMBREUSES ET LEURS ARÔMES, AGRÉABLES ET INTENSES.</p>
+                        <p> NOTRE PASSION N’EST PAS TRIANGULAIRE, MAIS CARRÉE. LA <strong>PERFECTION GÉOMÉTRIQUE DE LA PAPIZZA A LA TRANCHE</strong> (AL TAGLIO, COMME ON DIT EN ITALIE) EST SYNONYME D’EXCELLENCE GASTRONOMIQUE. LES INGRÉDIENTS, 100% NATURELS, SONT CUITS DANS DE VASTES ASSIETTES POUR SATISFAIRE VOTRE CAPRICE EN UN TOURNEMAIN. IL VOUS SUFFIT DE CHOISIR LES SAVEURS QUE VOUS VOULEZ GOÛTER !</p> 
+                        <p> IL<strong> VOUS ATTENDRA ÉGALEMENT DE DÉLICIEUSES ET ORIGINALES PAPIZZAS A LA TRANCHE.</strong> ESSAYEZ TOUTES LES TENTATIONS CARRÉES QUE VOUS VOULEZ. LES VARIÉTÉS SONT NOMBREUSES ET LEURS ARÔMES, AGRÉABLES ET INTENSES.</p>
                         <p class="nos-pizza-a-la-coupe-paragrapph">
                             <a href="menu.php#pizza-au-pensa" class="nos-pizza-a-la-coupe-link">Consulter le menu</a>
                         </p>

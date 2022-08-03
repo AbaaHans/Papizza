@@ -9,7 +9,9 @@ include 'header.php';
                 <div class="pizza-slice__icon">
                     <img src="assets/images/papizza/pizza-icon-menu.png" alt="pizza icon" >
                     <h1 class="cover__title">
-                        <span>MENU DE PIZZAS</span>
+						<a href="assets/doc/menu 29x14.pdf" style="font-size:25px" target="_blank" class="commande-intro-btn">
+							<span>MENU DE PIZZAS</span>
+						</a>
                     </h1>
             </div>
         </div>
@@ -246,25 +248,25 @@ include 'header.php';
                      <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col">
                             <div class="card">
-                            <img src="assets/images/papizza/PHOTO_page-0001.jpg" class="card-img-top" alt="...">
+                            <img src="assets/images/papizza/menu/PHOTO_page-0001.jpg" class="card-img-top" alt="...">
                             
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                            <img src="assets/images/papizza/PHOTO_page-0002.jpg" class="card-img-top" alt="...">
+                            <img src="assets/images/papizza/menu/PHOTO_page-0002.jpg" class="card-img-top" alt="...">
                             
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                            <img src="assets/images/papizza/PHOTO_page-0003.jpg" class="card-img-top" alt="...">
+                            <img src="assets/images/papizza/menu/PHOTO_page-0003.jpg" class="card-img-top" alt="...">
                             
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                            <img src="assets/images/papizza/PHOTO_page-0004.jpg" class="card-img-top" alt="...">
+                            <img src="assets/images/papizza/menu/PHOTO_page-0004.jpg" class="card-img-top" alt="...">
 
                             </div>
                         </div>

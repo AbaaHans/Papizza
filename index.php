@@ -1,12 +1,4 @@
 <?php
-
-    // setcookie('accepte-cookie', true, time() + 365*24*3600, '/', null, false, true);
-   
-    // if ($_SERVER(['HTTP_REFERER']) AND !empty($_SERVER['HTTP_REFERER'])){
-    //   header('Location: '.$_SERVER['HTTP_REFERER']);
-    // }else{
-    //   header('Location:https://www.papizza.ma/');
-    // }
 $page = "Accueil";
 include 'header.php';
 ?>
@@ -15,7 +7,7 @@ include 'header.php';
     <div class="pupop-content">
       <div>
           <a href="menu.php">
-              <img src="assets/images/papizza/pinsa-popUp_small.jpg"  alt="papizza.ma">
+              <img src="assets/images/papizza/home/pinsa-popUp_small.jpg"  alt="papizza.ma">
           </a>
           <a class="butn" href="commande.php">DÉCOUVREZ</a>
       </div>
@@ -210,7 +202,7 @@ include 'header.php';
   <div class="card">
       <div class="row g-0">
         <div class="col-md-7">
-          <img src="assets/images/papizza/reciente-horneada.jpg" class="img-fluid rounded-start" alt="...">
+          <img src="assets/images/papizza/home/reciente-horneada.jpg" class="img-fluid rounded-start" alt="...">
         </div>
         <div class="col-md-5">
           <div class="card-body">

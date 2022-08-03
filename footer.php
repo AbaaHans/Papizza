@@ -32,7 +32,7 @@
             <a href="index.php"> <img src="assets/images/papizza/logo_papizza.png" alt="papizza.ma" ></a>   
         </div>
         <div class="footer-copyright">
-            JMLGROUP S.A. © TOUS DROITS RÉSERVÉS.
+            JLMFOOD S.A.R.L © TOUS DROITS RÉSERVÉS.
         </div>
       
     </div>

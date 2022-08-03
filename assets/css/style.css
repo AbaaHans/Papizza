@@ -207,10 +207,11 @@ Classe commune */
   .connect-left .log-up, .login{
           width: 100%;
   }
-  .connect-left .log-up, .login{
+  .connect-left .log-up,.login {
     font-size: 10px;
 
   }
+ 
 
    
 }
@@ -317,7 +318,7 @@ padding: 0.625em;
 font-weight: normal;
 font-family: "Futura", Arial, sans;
 background: #5d3722;
-background-image: url(../images/papizza/tile-bg-en-casa.png), linear-gradient(45deg, #5d3722, #6e4024);
+background-image: url(../images/papizza/home/tile-bg-en-casa.png), linear-gradient(45deg, #5d3722, #6e4024);
 color: #f6e3a5;
 }
 
@@ -454,7 +455,7 @@ button {
 .content-area{
   position: relative;
   z-index: 10;
-  background: url('../images/papizza/pizza-bg.png') no-repeat -300px center, url('../images/papizza/body-bg-tile.jpg') repeat top left !important;
+  background: url('../images/papizza/home/pizza-bg.png') no-repeat -300px center, url('../images/papizza/body-bg-tile.jpg') repeat top left !important;
   align-items: flex-end;
   flex-direction: column;
   background-size: auto 70%, auto auto;
@@ -657,7 +658,7 @@ p {
 }
 
 .content-area-1-gusto {
-  background: url(../images/papizza/gusto-pizza.jpg) no-repeat center center;
+  background: url(../images/papizza/home/gusto-pizza.jpg) no-repeat center center;
   background-size: cover !important;
   z-index: 1;
   height: 100px;
@@ -701,7 +702,7 @@ p {
 
 
 .content-area-corta{
-  background: url(../images/papizza/corte-pizza.jpg) no-repeat center center;
+  background: url(../images/papizza/home/corte-pizza.jpg) no-repeat center center;
   background-size: cover;
   z-index: 4;
   height: 302px;
@@ -905,14 +906,14 @@ p {
   display: flex;
   align-content: center;
   justify-content: center;
-  background: #cf2027 url(../images/papizza/plus.png  ) no-repeat center center;
+  background: #cf2027 url(../images/papizza/home/plus.png  ) no-repeat center center;
 }
 
 .content-menu{
   height: 100vh !important;
   position: relative;
   z-index: 20;
-   background: url(../images/home/slice-bg.png) no-repeat right center, #f0f0f0 url(../images/papizza/carta-tile-bg.jpg) repeat top left;
+   background: url(../images/papizza/home/slice-bg.png) no-repeat right center, #f0f0f0 url(../images/papizza/home/carta-tile-bg.jpg) repeat top left;
 }
 .content-area-2{
   width: 20.7203513909%;
@@ -1114,7 +1115,7 @@ figure img{
   margin: 0 5px;
   content: " ";
   display: block;
-  background: url(../images/papizza/next-step-arrow.svg) no-repeat center 40%;
+  background: url(../images/papizza/home/next-step-arrow.svg) no-repeat center 40%;
   background-size: 100% auto;
 }
 @media (min-width: 769px)
@@ -1368,12 +1369,12 @@ page nos pizza
 
 @media (min-width: 769px){
   .Nos-pizza .cover-Nos-pizza {
-    background-image: url(../images/papizza/header-nos-pizza.jpg) !important  ;
+    background-image: url(../images/papizza/nospizza/header-nos-pizza.jpg) !important  ;
   }
 }
 
 .Nos-pizza .cover-Nos-pizza {
-  background: url(../images/papizza/header-mobile-nos-pizza.jpg) no-repeat center top;
+  background: url(../images/papizza/nospizza/header-mobile-nos-pizza.jpg) no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1393,7 +1394,7 @@ page nos pizza
 
 .nos-pizza-intro
 {font-size: 0.875em;
-background: #f0f0f0 url(../images/papizza/tile-bg-corte.jpg) repeat top left;
+background: #f0f0f0 url(../images/papizza/nospizza/tile-bg-corte.jpg) repeat top left;
 position: relative;
 z-index: 10;
 font-family: "Futura", Arial, sans;
@@ -1415,7 +1416,7 @@ padding: 4.625em 1.6875em;
   text-transform: uppercase;
   position: relative;
   z-index: 20;
-  background: #f0f0f0 url(../images/papizza/body-bg-tile.jpg) repeat top left;
+  background: #f0f0f0 url(../images/papizza/nospizza/body-bg-tile.jpg) repeat top left;
 }
 
 @media (min-width: 769px){
@@ -1438,7 +1439,7 @@ padding: 4.625em 1.6875em;
 }
 .nos-pizza-au-gout .moving{
   padding: 12.5em 1.6875em 4.0625em;
-  background: transparent url(../images/papizza/pizza-diavola.png) no-repeat 120% -10%;
+  background: transparent url(../images/papizza/nospizza/pizza-diavola.png) no-repeat 120% -10%;
   background-size: 65% auto;
 }
 @media screen and (max-width:769px) {
@@ -1457,7 +1458,7 @@ padding: 4.625em 1.6875em;
 
 
 @media (min-width: 769px){
-  .nos-pizza-nos-gout-content, .nos-pizza-a-la-coupe-link-content {
+  .nos-pizza-nos-gout-content, .nos-pizza-a-la-coupe-content {
     width: 50%;
   }
 }
@@ -1500,7 +1501,7 @@ p {
 
 .nos-pizza-a-la-coupe {
   text-align: right;
-  background: #f0f0f0 url(../images/papizza/tile-bg-corte.jpg) repeat top right;
+  background: #f0f0f0 url(../images/papizza/nospizza/tile-bg-corte.jpg) repeat top right;
   font-family: "Futura", Arial, sans;
   text-transform: uppercase;
   position: relative;
@@ -1524,7 +1525,7 @@ p {
 }
 
 .nos-pizza-a-la-coupe .moving{
-  background:  url(../images/papizza/al-corte.jpg) no-repeat 0% 0%;
+  background:  url(../images/papizza/nospizza/al-corte.jpg) no-repeat 0% 0%;
   
 }
 @media screen and (max-width:769px) {
@@ -1579,12 +1580,12 @@ Page menu
 
  @media (min-width: 769px){
   .menu-pizza .menu-cover {
-    background-image: url(../images/papizza/header.jpg);
+    background-image: url(../images/papizza/menu/header.jpg);
   }
 }
 
 .menu-pizza .menu-cover {
-  background: url(../images/papizza/header.jpg) no-repeat center top;
+  background: url(../images/papizza/menu/header.jpg) no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1737,7 +1738,7 @@ Page menu
   position: relative;
   z-index: 10;
   color: #bf7e24;
-  background: #f6e3a5 url(../images/papizza/triangle-tile.jpg) repeat top left;
+  background: #f6e3a5 url(../images/papizza/menu/triangle-tile.jpg) repeat top left;
   padding: 4.5625em 2.3125em;
   font-family: "Futura", Arial, sans;
 }
@@ -1785,7 +1786,7 @@ Page menu
 }
 
 .menu-table{
-  background: #eae7e7 url(../images/papizza/bg-pizza.jpg) no-repeat center 200px;
+  background: #eae7e7 url(../images/papizza/menu/bg-pizza.jpg) no-repeat center 200px;
   position: relative;
   z-index: 20;
 }
@@ -1798,7 +1799,7 @@ Page menu
 
 .menu-pizza-au-goût{
   padding-top: 3.125em;
-  background: url(../images/papizza/pinsa.png) no-repeat right -130px, url(../images/papizza/body-bg-tile.jpg) repeat left top;
+  background: url(../images/papizza/menu/pinsa.png) no-repeat right -130px, url(../images/papizza/body-bg-tile.jpg) repeat left top;
   background-size: 250px auto;
 }
 
@@ -1833,14 +1834,14 @@ Page menu
 @media (min-width: 933px){
   .menu-pizza-au-goût {
     padding-top: 0;
-    background: url(../images/papizza/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
+    background: url(../images/papizza/menu/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
 }
 
 }
 @supports (grid-area: auto){
   .menu-pizza-au-goût {
      padding-top: 0;
-    background: url(../images/papizza/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
+    background: url(../images/papizza/menu/pinsa.png) no-repeat right center, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
     
   }
 }
@@ -1850,7 +1851,7 @@ Page menu
 @media screen and (max-width:769px) {
   .menu-pizza-au-goût {
     padding-top: 3.125em !important;
-    background: url(../images/papizza/pinsa.png) no-repeat right -130px, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
+    background: url(../images/papizza/menu/pinsa.png) no-repeat right -130px, url(../images/papizza/body-bg-tile.jpg) repeat left top !important;
     background-size: 250px auto !important;
 
 }
@@ -1924,7 +1925,7 @@ strong {
 
 @media (min-width: 769px){
   .menu-category-header-pizzas-au-tribune {
-    background: #eae7e7 url(../images/papizza/bg-pizza.jpg) no-repeat center top;
+    background: #eae7e7 url(../images/papizza/menu/bg-pizza.jpg) no-repeat center top;
     background-size: contain;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1936,7 +1937,7 @@ strong {
 }
 @supports (grid-area: auto){
   .menu-category-header-pizzas-au-tribune {
-    background: #eae7e7 url(../images/papizza/bg-pizza.jpg) no-repeat center top;
+    background: #eae7e7 url(../images/papizza/menu/bg-pizza.jpg) no-repeat center top;
     background-size: contain;
     display: -webkit-box;
     display: -webkit-flex;
@@ -2096,7 +2097,7 @@ strong {
 
 
 .menu-starters{
-  background: url(../images/papizza/complementos-icons.jpg) no-repeat right -120px, url(../images/papizza/complementos-tile.jpg) repeat left top;
+  background: url(../images/papizza/menu/complementos-icons.jpg) no-repeat right -120px, url(../images/papizza/menu/complementos-tile.jpg) repeat left top;
 }
 @media (min-width: 769px){
   .menu-starters  .menu-category-starters-texts {
@@ -2146,7 +2147,7 @@ padding: 4.75em 2.3125em 3.125em 2.3125em;
 }
 }
 .menu-desserts{
-  background: url(../images/papizza/desserts.png) no-repeat center -120px, url(../images/papizza/dessert-tile.png) repeat left top;
+  background: url(../images/papizza/menu/desserts.png) no-repeat center -120px, url(../images/papizza/menu/dessert-tile.png) repeat left top;
 }
 
 @media (min-width: 769px){
@@ -2179,11 +2180,11 @@ padding: 4.75em 2.3125em 3.125em 2.3125em;
 @media (min-width: 769px)
 {
   .local-papizza .cover-local {
-    background-image: url(../images/papizza/header-local.jpg);
+    background-image: url(../images/papizza/Local/header-local.jpg);
 }
 }
 .local-papizza .cover-local{
-  background: url(../images/papizza//header-local.jpg) no-repeat center top;
+  background: url(../images/papizza/Local/header-local.jpg) no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -2324,7 +2325,7 @@ padding: 4.75em 2.3125em 3.125em 2.3125em;
 
 .local-map-deco{
     position: relative;
-    background: url(../images/papizza/deco4.jpg) no-repeat center center;
+    background: url(../images/papizza/Local/deco4.jpg) no-repeat center center;
     background-size: cover !important;
 }
 @media screen and (max-width:769px) {
@@ -2344,12 +2345,12 @@ page franchise
 
 @media (min-width: 769px){
   .Franchise .cover-franchise{
-    background-image: url(../images/papizza/header-franchise.jpg);
+    background-image: url(../images/papizza/OUVREZVOTREFRANCHISE/header-franchise.jpg);
   }
 }
 
 .Franchise .cover-franchise{
-  background: url(../images/papizza/header-franchise.jpg) no-repeat center top;
+  background: url(../images/papizza/OUVREZVOTREFRANCHISE/header-franchise.jpg) no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -2369,7 +2370,7 @@ page franchise
 .franchise-intro {
   font-size: 0.875em;
   background: #5d3722;
-  background-image: url(../images/papizza/intro-tile.jpg), linear-gradient(45deg, #5d3722, #6e4024);
+  background-image: url(../images/papizza/OUVREZVOTREFRANCHISE/intro-tile.jpg), linear-gradient(45deg, #5d3722, #6e4024);
   position: relative;
   z-index: 10;
   font-family: "Futura", Arial, sans;
@@ -2428,7 +2429,7 @@ page franchise
   }
 }
 .franchise-information {
-  background-image: url(../images/papizza/metal-tile.jpg);
+  background-image: url(../images/papizza/OUVREZVOTREFRANCHISE/metal-tile.jpg);
   
 }
 
@@ -2465,7 +2466,7 @@ page franchise
   position: relative;
   z-index: 20;
   padding-bottom: 3.125em;
-  background: url(../images/locales/foto-local.jpg) no-repeat right top, url(../images/papizza/body-bg-tile.jpg) repeat;
+  background: url() no-repeat right top, url(../images/papizza/body-bg-tile.jpg) repeat;
  
 }
 
@@ -2654,7 +2655,7 @@ textarea {
 
 @media (min-width: 769px){
   .types-de-franchises{
-    background-image: url(../images/papizza/foto-tipos.png), url(../images/papizza/description-tile.jpg);
+    background-image: url(../images/papizza/OUVREZVOTREFRANCHISE/foto-tipos.png), url(../images/papizza/description-tile.jpg);
     background-size: 45% auto, auto auto;
     background-position: right center, top left;
   }
@@ -2664,12 +2665,12 @@ textarea {
     position: relative;
     z-index: 20;
     padding-bottom: 3.125em;
-    background: url(../images/papizza/foto-tipos.png) no-repeat right top, url(../images/papizza/body-bg-tile.jpg) repeat;
+    background: url(../images/papizza/OUVREZVOTREFRANCHISE/foto-tipos.png) no-repeat right top, url(../images/papizza/body-bg-tile.jpg) repeat;
 }
 
 @media screen and (max-width: 769px){
   .types-de-franchises {
-    background-image: url(../images/papizza/foto-tipos-mobile.png), url(../images/papizza/description-tile.jpg);
+    background-image: url(../images/papizza/OUVREZVOTREFRANCHISE/foto-tipos-mobile.png), url(../images/papizza/OUVREZVOTREFRANCHISE/description-tile.jpg);
     background-size: 50% auto, auto auto;
   }
 }
@@ -2750,12 +2751,12 @@ page commande
 */
 @media (min-width: 769px){
   .commande .cover-commande {
-    background-image: url(../images/papizza/header-commande.jpg);
+    background-image: url(../images/papizza/commandes/header-commande.jpg);
   }
 }
 
 .cover-commande {
-  background: url(../images/papizza/header-mobile-comde\ \(1\).jpg) no-repeat center top;
+  background: url(../images/papizza/commandes/header-mobile-comde.jpg) no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -2902,7 +2903,7 @@ page contact
 .contact-intro{
   font-size: 0.875em;
   background: #5d3722;
-  background-image: url(../images/papizza/gracias-tile.jpg);
+  background-image: url(../images/papizza/Contact/gracias-tile.jpg);
   position: relative;
   z-index: 10;
   font-family: "Futura", Arial, sans;

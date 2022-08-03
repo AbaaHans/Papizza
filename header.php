@@ -20,7 +20,7 @@
                     </a>
                     <div class="d-flex d-none connect-left connect text-uppercase">
                        <a href="#" class="log-up">Enregistrement</a>
-                       <a href="#" class="login"> Accéder</a>
+                       <a href="#" style="font-size: 10px;" class="login"> Accéder</a>
                  </div>
                    <div class="burger">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

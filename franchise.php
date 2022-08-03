@@ -7,7 +7,7 @@ include 'header.php';
     <div class="cover-franchise">
         <div class="cover__icon pizza-slice">
             <div class="pizza-slice__icon">
-                <img src="assets/images/papizza/icon-franchise.png" alt="pizza icon" >
+                <img src="assets/images/papizza/OUVREZVOTREFRANCHISE/icon-franchise.png" alt="pizza icon" >
                 <h1 class="cover__title">
                     <span style="background:black !important;" >Votre franchise</span>
                     <span style="background:black !important;">idéal pour les pizzas</span>
@@ -28,7 +28,7 @@ include 'header.php';
             <div class="franchise-intro-content">
                 <p class="franchise-paragraph">
                  QUELLE <strong> FRANCHISE DE PIZZA</strong> EST LE NUMÉRO
-                UN DES VENTES DE PIZZA COUPÉE ? 
+                UN DES VENTES DES PIZZA'S EN TRANCHE ? 
                 QUELLE EST LA SEULE ENSIGNE NATIONALE
                 DÉDIÉE À LA FABRICATION DE PIZZA 100 % 
                 ARTISANALE ? LA RÉPONSE AUX DEUX QUESTIONS
@@ -48,13 +48,13 @@ include 'header.php';
                 DESTINÉE À UN PUBLIC JEUNE, 
                 EST EN <strong> PLEINE EXPANSION. </strong> 
                 LA PREUVE EN EST QUE NOUS RECEVONS 
-                DES CENTAINES DE DEMANDES DE TOUTE 
-                L'ESPAGNE DE POSSIBLES FRANCHISÉS. 
+                DES CENTAINES DE DEMANDES DE TOUT
+				LE MAROC DE POSSIBLES FRANCHISÉS. 
                 VOUS POUVEZ ÊTRE L'UN D'EUX !
                 </p>
                 <p class="franchise-information-paragraph">
                     VOUS VOUS SENTIREZ SOUTENUS À TOUT MOMENT, 
-                    CAR CHEZ FOODBOX, NOUS AVONS DES<strong> PROGRAMMES 
+                    CAR CHEZ JLMFOOD, NOUS AVONS DES<strong> PROGRAMMES 
                     DE FORMATION PIONNIER POUR LES FRANCHISÉS,
                      LES GESTIONNAIRES ET LES EMPLOYÉS.</strong> 
                     NOUS VOUS AIDONS AVEC LE COMPTE
@@ -122,7 +122,7 @@ include 'header.php';
             LA RESTAURATION RAPIDE ITALIENNE. 
             PARIEZ SUR<strong> L'UNE DES FRANCHISES LES PLUS
             RENTABLES, POLYVALENTES ET PRESTIGIEUSES
-            D'ESPAGNE</strong>. INNOVATION ET MODERNITÉ SE 
+            DU MAROC</strong>. INNOVATION ET MODERNITÉ SE 
             FUSIONNENT DANS CE MODÈLE DONT 
             LE FONCTIONNEMENT PERMET D'UNIFORMISER 
             TOUS LES PROCESSUS
