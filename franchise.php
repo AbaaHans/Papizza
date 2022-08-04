@@ -1,9 +1,9 @@
 <?php
 $page = "Ouvrez votre franchise";
-include 'header.php';
+include 'include/header.php';
 ?>
 
-<div class="Franchise">
+<div class="Franchise" id="franchise">
     <div class="cover-franchise">
         <div class="cover__icon pizza-slice">
             <div class="pizza-slice__icon">
@@ -143,5 +143,5 @@ include 'header.php';
 
 
 <?php
-include 'footer.php';
+include 'include/footer.php';
 ?>

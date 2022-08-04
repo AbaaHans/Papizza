@@ -1,8 +1,8 @@
 <?php
 $page = "Contact";
-include 'header.php';
+include 'include/header.php';
 ?>
-    <div class="contact no-cover" style="padding-top: 107px;">
+    <div class="contact no-cover" id="contact" style="padding-top: 107px;">
         <div class="contact-intro">
             <div class="contact-wrapper">
                 <ul class="contact-intro-list">
@@ -51,5 +51,6 @@ include 'header.php';
     </div>
 
 <?php
-include 'footer.php';
+
+include 'include/footer.php';
 ?>

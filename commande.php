@@ -1,9 +1,9 @@
 <?php
 $page = "Passez vos commandes";
-include 'header.php';
+include 'include/header.php';
 ?>
 
-<div class="commande">
+<div class="commande" id="commande">
     <div class="cover-commande">
         <div class="cover__icon pizza-slice">
                 <div class="pizza-slice__icon">
@@ -71,5 +71,6 @@ include 'header.php';
 
 
 <?php
-include 'footer.php';
+
+include 'include/footer.php';
 ?>

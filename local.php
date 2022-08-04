@@ -1,9 +1,9 @@
 <?php
 $page = "Local";
-include 'header.php';
+include 'include/header.php';
 ?>
 
-<div class="local-papizza">
+<div class="local-papizza" id="local">
     <div class="cover-local">
         <div class="cover__icon pizza-slice">
                 <div class="pizza-slice__icon">
@@ -91,5 +91,6 @@ include 'header.php';
 
 
 <?php
-include 'footer.php';
+
+include 'include/footer.php';
 ?>

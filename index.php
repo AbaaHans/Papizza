@@ -1,6 +1,6 @@
 <?php
 $page = "Accueil";
-include 'header.php';
+include 'include/header.php';
 ?>
 
 <div class="popup">
@@ -16,7 +16,7 @@ include 'header.php';
       </div>
     </div>
 </div>
-<div class="banner ">
+<div class="banner " id="accueil">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
     <div class="cover-commandez ">
         <a href="commande.php">
@@ -239,5 +239,5 @@ include 'header.php';
 <?php   }?>
 
 <?php
-include 'footer.php';
+include 'include/footer.php';
 ?>

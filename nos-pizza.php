@@ -1,11 +1,11 @@
 <?php
 $page = "Nos pizza";
-include 'header.php';
+include 'include/header.php';
 ?>
 
 
 
-<div class="Nos-pizza">
+<div class="Nos-pizza" id="Nos-pizza">
     <div class="cover-Nos-pizza">
         <div class="cover__icon pizza-slice">
             <div class="pizza-slice__icon">
@@ -72,5 +72,6 @@ include 'header.php';
 
 
 <?php
-include 'footer.php';
+
+include 'include/footer.php';
 ?>

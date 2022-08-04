@@ -1,9 +1,9 @@
 <?php
 $page = "Menu";
-include 'header.php';
+include 'include/header.php';
 ?>
 
-<div class="menu-pizza">
+<div class="menu-pizza" id="menu">
     <div class="menu-cover">
         <div class="cover__icon pizza-slice">
                 <div class="pizza-slice__icon">
@@ -281,5 +281,6 @@ include 'header.php';
 
 
 <?php
-include 'footer.php';
+
+include 'include/footer.php';
 ?>
