@@ -29,7 +29,7 @@
    
     <div class="footer-jmlgroup">
         <div class="logo-footer">
-            <a href="index.php"> <img src="assets/images/papizza/PAPIZZA_LOGO.jpg" style="width:150px" alt="papizza.ma" ></a>   
+            <a href="index.php"> <img src="assets/images/papizza/PIZZA_Plan_logo.png" style="width:150px" alt="papizza.ma" ></a>   
         </div>
         <div class="footer-copyright">
             JLMFOOD S.A.R.L © TOUS DROITS RÉSERVÉS.

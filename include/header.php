@@ -16,7 +16,7 @@
             <nav class="navbar navbar-expand-lg fixed-top  ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.php">
-                        <img src="assets/images/papizza/PAPIZZA_LOGO.jpg" class="logo" alt="papizza" srcset="">
+                        <img src="assets/images/papizza/PIZZA_Plan_logo.png" class="logo" alt="papizza" srcset="">
                     </a>
                     <div class="d-flex d-none connect-left connect text-uppercase">
                        <a href="#" class="log-up">Enregistrement</a>
